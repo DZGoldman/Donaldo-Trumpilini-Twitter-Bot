@@ -5,10 +5,10 @@ class Bot < ActiveRecord::Base
 
   def self.trump_tweets
     CLIENT.user_timeline("realDonaldTrump")
+  end
 end
 
 
 #CLIENT.user('realDonaldTrump')
 #ClIENT.update("I'm tweeting with @gem!")
 # tweet.full_text
-end

@@ -4,7 +4,3 @@ CLIENT = Twitter::REST::Client.new do |config|
   config.access_token = ENV['access_token']
   config.access_token_secret = ENV['access_secret']
 end
-
-
-#CLIENT.user('realDonaldTrump')
-#ClIENT.update("I'm tweeting with @gem!")
