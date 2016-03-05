@@ -23,9 +23,10 @@ ActiveRecord::Schema.define(version: 20160304201049) do
 
   create_table "words", force: :cascade do |t|
     t.string   "word"
-    t.text     "chain",      default: [],              array: true
-    t.datetime "created_at",              null: false
-    t.datetime "updated_at",              null: false
+    t.string   "chain",      default: [],                 array: true
+    t.boolean  "end",        default: false
+    t.datetime "created_at",                 null: false
+    t.datetime "updated_at",                 null: false
   end
 
 end
