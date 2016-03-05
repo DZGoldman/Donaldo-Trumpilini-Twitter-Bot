@@ -1,13 +1,26 @@
 class Bot < ActiveRecord::Base
-  def self.search_words words
-    CLIENT.search(words, lang: "en").first.text
+  def self.collect_with_max_id(collection=[], max_id=nil, &block)
+    response = yield max_id
+    collection += response
+    response.empty? ? collection.flatten : collect_with_max_id(collection, response.last.id - 1, &block)
   end
 
-  def self.trump_tweets
-    CLIENT.user_timeline("realDonaldTrump")
+  def self.fetch_all_tweets
+    Bot.collect_with_max_id do |max_id|
+      options = {:count => 200, :include_rts => false}
+      options[:max_id] = max_id unless max_id.nil?
+      CLIENT.user_timeline('realDonaldTrump', options)
+    end
+  end
+
+  def self.markov_tweets (tweets)
+    tweets.each do |tweet|
+      make_markov(tweet.full_text)
+    end
   end
 
   def self.make_markov text
+    clean_text = text.tr('"', '')
     array = text.split(' ')
     #iterate through each word
     array.each_with_index do |word, index|
@@ -50,31 +63,37 @@ class Bot < ActiveRecord::Base
     loop do
       next_tweet+= "#{current_word.word} "
 
-      if next_tweet.length>149
+      if next_tweet.length>139
         current_tweet+= ['.', '!'].sample
         break
       end
 
       current_tweet = next_tweet
       break if current_word.end
+      break if current_word.chain=='[]'
+
 
 
       next_word = current_word.chain.sample
+
       next_db_word = Word.where(word: next_word)[0]
+      # break if next_db_word.chain[0]==nil
       current_word= next_db_word
     end
-    ClIENT.update(current_tweet.capitalize)
+    # CLIENT.update(current_tweet.capitalize)
     # puts CLIENT.user_timeline("realDonaldTrump")
     return current_tweet.capitalize
   end
 end
 
-
+def average_string array
+  num_array=[]
+  array.each do |str|
+    num_array.push(str.length)
+  end
+  num_array.reduce(:+)/num_array.length
+end
 
 #CLIENT.user('realDonaldTrump')
-ClIENT.update("I'm tweeting with @gem!")
+# CLIENT.update("I'm tweeting now check it out yo")
 # tweet.full_text
-
-@trump_speech ="Recent articles Recent came out talking about how great a company we built, and now we want to put that same ability into doing something for our nation. I mean, our nation is in serious trouble. We’re being chilled on trade, absolutely destroyed. China is just taking advantage of us. I have nothing against China. I have great respect for China, but their leaders are too smart for our leaders. Our leaders don’t have a clue and the trade deficits at $400 billion and $500 are too much. No country can sustain that kind of trade deficit. It won’t be that way for long. We have the greatest business leaders in the world on my team already and, believe me, we’re going to redo those trade deals and it’s going to be a thing of beauty."
-
-@mous_speech= "It is not only an army marching towards its goal, but it is forty-four million Italians marching in unity behind this army. Because the blackest of injustices is being attempted against them, that of taking from them their place in the sun. When in 1915 Italy threw in her fate with that of the Allies, how many cries of admiration, how many promises were heard? But after the common victory, which cost Italy six hundred thousand dead, four hundred thousand lost, one million wounded, when peace was being discussed around the table only the crumbs of a rich colonial booty were left for us to pick up. For thirteen years we have been patient while the circle tightened around us at the hands of those who wish to suffocate us."
