@@ -1,28 +1,13 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+How to have timer? Just use wait method?
 
-Things you may want to cover:
+Retweet and favorite all Trumpilini mentions
+Follow everyone Trump mentions
+Favorite and follow one #makeamericagreatagain tweet a day
+Follow back all followers
+Reply to one follower a day?
 
-* Ruby version
+Remove unnecessary gems
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Figure out where to get actual text (esp. mousiliini)
