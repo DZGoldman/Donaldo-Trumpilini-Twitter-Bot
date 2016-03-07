@@ -13,6 +13,27 @@ class Bot < ActiveRecord::Base
     end
   end
 
+  def self.chain_test db_words
+    counter=0
+    db_words.each_with_index do |db_word, index|
+      db_word.chain.each do |word|
+        if Word.where(word: word)[0]==nil
+          counter+=1
+        end
+      end
+
+    end
+    counter
+  end
+
+  def self.fetch_some_tweets n
+    Bot.collect_with_max_id do |max_id|
+      options = {:count => 200, :include_rts => false}
+      options[:max_id] = n unless max_id.nil?
+      CLIENT.user_timeline('realDonaldTrump', options)
+    end
+  end
+
   def self.markov_tweets (tweets)
     tweets.each do |tweet|
       make_markov(tweet.full_text)
@@ -21,7 +42,7 @@ class Bot < ActiveRecord::Base
 
   def self.make_markov text
     clean_text = text.tr('"', '')
-    array = text.split(' ')
+    array = clean_text.split(' ')
     #iterate through each word
     array.each_with_index do |word, index|
       #if it already exists
@@ -38,8 +59,8 @@ class Bot < ActiveRecord::Base
       else
       #if it doesn't exist yet, make a new one
         db_word = Word.new(:word => word)
-        #see if it ends the sentence, if so stop there
-        if ['.', '?', '!'].include?(word[word.length-1])
+        #see if it ends the sentence, or ends the inputed sentence, stop there
+        if ['.', '?', '!'].include?(word[word.length-1]) || index==array.length-1
           db_word.end=true
         else
           #otherwise, push in the next word unless it's already there
@@ -59,41 +80,38 @@ class Bot < ActiveRecord::Base
   def self.generate_tweet
     current_tweet = ""
     next_tweet=""
-    current_word = Word.random
+    current_db_word = Word.where(end: false).random
+    first = true
+    recur = false
     loop do
-      next_tweet+= "#{current_word.word} "
-
-      if next_tweet.length>139
-        current_tweet+= ['.', '!'].sample
-        break
-      end
+      #remove space in front in it's the first iteration
+      first ? next_tweet+= "#{current_db_word.word}" : next_tweet+=" #{current_db_word.word}"
+      first = false
+      break if next_tweet.length>138
 
       current_tweet = next_tweet
-      break if current_word.end
-      break if current_word.chain=='[]'
-
-
-
-      next_word = current_word.chain.sample
-
-      next_db_word = Word.where(word: next_word)[0]
+      break if current_db_word.end
+      # break if current_db_word.chain=='[]'
+      next_word = current_db_word.chain.sample
+      if Word.where(word: next_word)[0]==nil
+        recur=true
+        Bot.generate_tweet
+        break
+      end
+      next_db_word =Word.where(word: next_word)[0]
       # break if next_db_word.chain[0]==nil
-      current_word= next_db_word
+      current_db_word= next_db_word
     end
+    if !['!','.','?'].include?(current_tweet.last)
+      current_tweet+= ['!', '.'].sample
+    end
+    puts current_tweet.slice(0,1).capitalize + current_tweet.slice(1..-1) unless recur
     # CLIENT.update(current_tweet.capitalize)
-    # puts CLIENT.user_timeline("realDonaldTrump")
-    return current_tweet.capitalize
   end
 end
 
-def average_string array
-  num_array=[]
-  array.each do |str|
-    num_array.push(str.length)
-  end
-  num_array.reduce(:+)/num_array.length
-end
 
 #CLIENT.user('realDonaldTrump')
 # CLIENT.update("I'm tweeting now check it out yo")
 # tweet.full_text
+# puts CLIENT.user_timeline("realDonaldTrump")

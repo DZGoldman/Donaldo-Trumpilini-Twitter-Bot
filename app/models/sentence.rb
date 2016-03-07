@@ -1,14 +1,25 @@
 class Sentence < ActiveRecord::Base
 end
 
-def save_sentences
+def save_all_sentences
   @bio.split('.').each do |sentence|
     Sentence.create(:body => sentence)
   end
 
 end
-def save_3000
-  for i in 1..3000
+
+def save_some_sentences n
+  @bio.split('.').each_with_index do |sentence, index|
+    Sentence.create(:body => sentence)
+    break if index > n
+  end
+
+end
+
+
+
+def markov_some_sentences n
+  for i in 1..n
     sentence = Sentence.random
     Bot.make_markov(sentence.body)
     sentence.delete
