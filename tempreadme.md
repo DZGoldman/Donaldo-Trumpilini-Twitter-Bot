@@ -19,3 +19,19 @@ What he does:
 -Follows back when you follow it or retweet it
 -Retweets/favorites/follows all mentions
 -replies to any tweets mentioning trump of his follows
+
+# Donaldo Trumpilini
+## What is Donaldo Trumpilini
+
+## How does it work?
+Markov
+
+## How does he know when to tweet?
+
+## Is the data set fixed?
+No. trump.mous balance
+
+## Is that all he does?
+No.
+
+#what technologies?
