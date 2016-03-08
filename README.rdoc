@@ -1,13 +1,21 @@
 == README
 
-How to have timer? Just use wait method?
+TODO
+Relocate stream to a Bot method
+Figure out data problem
+Include posting tweet/markoving in Streaming
+Make reply method
+Add check for <100 sentences method
 
-Retweet and favorite all Trumpilini mentions
 Follow everyone Trump mentions
 Favorite and follow one #makeamericagreatagain tweet a day
-Follow back all followers
 Reply to one follower a day?
+How to have timer? Just use wait method?
 
-Remove unnecessary gems
 
-Figure out where to get actual text (esp. mousiliini)
+
+What he does:
+- generates a tweet whenever trump tweets
+-Follows back when you follow it or retweet it
+-Retweets/favorites/follows all mentions
+-replies to any tweets mentioning trump of his follows

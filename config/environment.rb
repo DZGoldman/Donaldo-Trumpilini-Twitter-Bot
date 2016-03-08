@@ -27,3 +27,5 @@ def average_string array
   end
   num_array.reduce(:+)/num_array.length
 end
+
+Bot.start_stream
