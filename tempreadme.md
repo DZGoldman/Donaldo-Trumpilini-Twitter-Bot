@@ -1,7 +1,6 @@
 == README
 
 TODO
-Relocate stream to a Bot method
 Figure out data problem
 Include posting tweet/markoving in Streaming
 Make reply method

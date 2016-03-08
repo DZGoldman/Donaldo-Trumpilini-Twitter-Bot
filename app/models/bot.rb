@@ -1,39 +1,4 @@
 class Bot < ActiveRecord::Base
-  def self.collect_with_max_id(collection=[], max_id=nil, &block)
-    response = yield max_id
-    collection += response
-    response.empty? ? collection.flatten : collect_with_max_id(collection, response.last.id - 1, &block)
-  end
-
-  def self.fetch_all_tweets
-    Bot.collect_with_max_id do |max_id|
-      options = {:count => 200, :include_rts => false}
-      options[:max_id] = max_id unless max_id.nil?
-      CLIENT.user_timeline('realDonaldTrump', options)
-    end
-  end
-
-  def self.chain_test db_words
-    counter=0
-    db_words.each_with_index do |db_word, index|
-      db_word.chain.each do |word|
-        if Word.where(word: word)[0]==nil
-          counter+=1
-        end
-      end
-
-    end
-    counter
-  end
-
-  def self.fetch_some_tweets n
-    Bot.collect_with_max_id do |max_id|
-      options = {:count => 200, :include_rts => false}
-      options[:max_id] = n unless max_id.nil?
-      CLIENT.user_timeline('realDonaldTrump', options)
-    end
-  end
-
   def self.markov_tweets (tweets)
     tweets.each do |tweet|
       make_markov(tweet.full_text)
@@ -45,30 +10,30 @@ class Bot < ActiveRecord::Base
     array = clean_text.split(' ')
     #iterate through each word
     array.each_with_index do |word, index|
+      is_last_word=false
+      #see if it ends the sentence, or ends the inputed sentence, stop there
+      if ['.', '?', '!'].include?(word[word.length-1]) || index==array.length-1
+        if !Word.exists?(word: word, end: true)
+          Word.create(:word => word, :end => true)
+        end
+        next
+      end
+
       #if it already exists
       if Word.exists?(word: word)
          db_word=Word.where(word: word)[0]
-        if !db_word.end
-            next_word = array[index+1]
-            unless db_word.chain.include?(next_word)
-              db_word.chain.push(next_word)
-            end
-           db_word.save
-        end
-
+         next_word = array[index+1]
+         unless db_word.chain.include?(next_word)
+           db_word.chain.push(next_word)
+         end
+         db_word.save
+        #if it doesn't exist yet, make a new one
       else
-      #if it doesn't exist yet, make a new one
         db_word = Word.new(:word => word)
-        #see if it ends the sentence, or ends the inputed sentence, stop there
-        if ['.', '?', '!'].include?(word[word.length-1]) || index==array.length-1
-          db_word.end=true
-        else
-          #otherwise, push in the next word unless it's already there
-          next_word = array[index+1]
-          unless db_word.chain.include?(next_word)
-            db_word.chain.push(next_word)
-          end
-
+          # push in the next word unless it's already there
+        next_word = array[index+1]
+        unless db_word.chain.include?(next_word)
+          db_word.chain.push(next_word)
         end
         db_word.save
       end
@@ -93,11 +58,11 @@ class Bot < ActiveRecord::Base
       break if current_db_word.end
       # break if current_db_word.chain=='[]'
       next_word = current_db_word.chain.sample
-      if Word.where(word: next_word)[0]==nil
-        recur=true
-        Bot.generate_tweet
-        break
-      end
+      # if Word.where(word: next_word)[0]==nil
+      #   recur=true
+      #   Bot.generate_tweet
+      #   break
+      # end
       next_db_word =Word.where(word: next_word)[0]
       # break if next_db_word.chain[0]==nil
       current_db_word= next_db_word
@@ -106,7 +71,8 @@ class Bot < ActiveRecord::Base
       current_tweet+= ['!', '.'].sample
     end
     puts current_tweet.slice(0,1).capitalize + current_tweet.slice(1..-1) unless recur
-    CLIENT.update(current_tweet.capitalize)
+    # CLIENT.update(current_tweet.capitalize)
+    puts current_tweet.capitalize
   end
 
   def self.generate_reply
@@ -125,11 +91,11 @@ class Bot < ActiveRecord::Base
       break if current_db_word.end
       # break if current_db_word.chain=='[]'
       next_word = current_db_word.chain.sample
-      if Word.where(word: next_word)[0]==nil
-        recur=true
-        Bot.generate_tweet
-        break
-      end
+      # if Word.where(word: next_word)[0]==nil
+      #   recur=true
+      #   Bot.generate_tweet
+      #   break
+      # end
       next_db_word =Word.where(word: next_word)[0]
       # break if next_db_word.chain[0]==nil
       current_db_word= next_db_word
@@ -196,8 +162,6 @@ class Bot < ActiveRecord::Base
       end
     end
   end
-
-
 
 end
 
