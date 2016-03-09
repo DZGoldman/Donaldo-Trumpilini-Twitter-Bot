@@ -107,7 +107,7 @@ class Bot < ActiveRecord::Base
 
   def self.start_stream
     # TODO capitalizing for @mentions
-    $last_hour=0
+    $last_minute=Time.now.minute
     STREAMER.user do |object|
 
       # puts object
@@ -123,11 +123,11 @@ class Bot < ActiveRecord::Base
       end
 
       when Twitter::Tweet
-        $new_hour= Time.now.hour
-        if $new_hour%1==0 && ($new_hour!=$last_hour)
+        $new_minute= Time.now.minute
+        if $new_minute%10==0 && ($new_minute!=$last_minute)
           Bot.generate_tweet
         end
-        $last_hour=Time.now.hour
+        $last_minute=Time.now.minute
 
         unless object.user.screen_name=="Don_Trumpilini"
           puts "some tweet: "+ object.full_text
