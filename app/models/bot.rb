@@ -124,15 +124,15 @@ class Bot < ActiveRecord::Base
 
       when Twitter::Tweet
         $new_hour= Time.now.hour
-        if $new_hour%1==0 && $new_hour!=$last_hour
+        if $new_hour%1==0 && ($new_hour!=$last_hour)
           Bot.generate_tweet
         end
         $last_hour=Time.now.hour
-        
+
         unless object.user.screen_name=="Don_Trumpilini"
           puts "some tweet: "+ object.full_text
 
-          if object.user.screen_name=="realDonaldTrump"
+          if object.user.screen_name=="Zack60671069"
             puts 'trump tweeted that!'
             Bot.generate_tweet
             Bot.make_markov (object.full_text)

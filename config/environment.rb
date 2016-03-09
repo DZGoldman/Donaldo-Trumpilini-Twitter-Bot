@@ -70,5 +70,9 @@ def chain_test db_words
   not_found_words
 end
 
-
-Bot.start_stream
+loop do
+  puts 'starting stream...'
+  Bot.start_stream
+  puts 'stream broken...'
+  sleep(10)
+end
