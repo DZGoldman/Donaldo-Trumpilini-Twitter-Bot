@@ -152,7 +152,6 @@ class Bot < ActiveRecord::Base
             # reply to anyone who tweets about him
           elsif object.full_text.downcase.include? "trump"
             puts("follower mentioned trump")
-            puts ("@#{object.user.screen_name} #{Bot.generate_reply}")
             puts object.id
             CLIENT.update("@#{object.user.screen_name} #{Bot.generate_reply}", in_reply_to_status_id: object.id)
           end
