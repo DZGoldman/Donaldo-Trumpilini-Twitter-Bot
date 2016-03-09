@@ -23,6 +23,9 @@ def markov_some_sentences n
     sentence = Sentence.random
     Bot.make_markov(sentence.body)
     sentence.delete
+    if Sentence.count< 100
+      CLIENT.update("@DZack23 Ho bisogno di più dati Mousilini !")
+    end
   end
 end
 
@@ -55,8 +58,6 @@ me by bringing again to my memory the old district of
 Predappio. It was a country well known in the thir-
 
 
-
-2 My Autobiography
 
 teenth century, giving birth to illustrious families dur-
 ing the Renaissance. It is a sulphurous land. From it
@@ -95,7 +96,6 @@ they scattered into neighboring provinces. One may be
 
 
 
-A Sulphurous Land 3
 
 sure that in that era their adventures were varied and
 sometimes in the flux of fortune brought them to hard
@@ -130,10 +130,6 @@ world; each talisman seems to promise salvation; each
 theory pretends to immortality.
 
 The Mussolinis had left some permanent marks. In
-
-
-
-4 My Autobiography
 
 Bologna there is still a street named for that family
 and not long ago a tower and a square bore the name.
@@ -173,9 +169,6 @@ being either praiseworthy or as being more than normal
 in every direction. I remember my father as a dark-
 
 
-
-A Sulphurous Land 5
-
 haired, good-natured man, not slow to laugh, with
 strong features and steady eyes. I remember that near
 the house where I was born, with its stone wall with
@@ -210,8 +203,6 @@ The alphabet was my first practice in worldly af-
 fairs and I learned it in a rush of enthusiasm. Without
 
 
-
-6 My Autobiography
 
 knowing why, I found myself wishing to attend school
 — the school at Predappio, some two miles away. It was
@@ -248,9 +239,8 @@ To-day that town — Predappio Nuovo — is in full proc-
 
 
 
-A Sulphurous Land 7
 
-ess of development ; on its masonry gate there is carved
+ess of development; on its masonry gate there is carved
 the symbol of Fascism and words expressing my clear
 will.
 
@@ -270,7 +260,7 @@ one to the hearth and the village.
 
 I saw the town of Forli — a considerable place which
 should have impressed me but failed to do so. But Ra-
-venna ! Some of my mothers relatives lived in the plain
+venna! Some of my mothers relatives lived in the plain
 of Ravenna and on one summer vacation we set out
 together to visit them. After all, it was not far away,
 but to my imagination it was a great journey — almost
@@ -287,12 +277,10 @@ experienced a profound and significant enlarging of
 
 
 
-8 My Autobiography
-
 my concepts of life, beauty and the rise of civilizations.
 The tomb of Dante, inspiring in its quiet hour of noon ;
 the basilica of San Apollinare; the Candiano canal,
-with the pointed sails of fishing-boats at its mouth ; and
+with the pointed sails of fishing-boats at its mouth; and
 then the beauty of the Adriatic moved me — touched
 something within me.
 
@@ -305,11 +293,8 @@ efforts to tame the wild duck.
 
 
 
-CHAPTER II
 
 
-
-MY FATHER
 
 
 
@@ -339,8 +324,6 @@ fathomable, and hence a stupid world of words. I could
 not follow as a child the arguments of lengthy debates
 
 
-
-10 My Autobiography
 
 around the table, nor did I grasp the reasons for the
 watchfulness and measures taken by the police. But now
@@ -378,7 +361,6 @@ I did not feel that I would languish if I did not go to a
 
 
 
-My Father 11
 
 normal school and did not prepare to become a teacher.
 But my family were right. I had developed some ca-
@@ -388,7 +370,7 @@ I went to the normal school at a place called For-
 limpopoli. I remember my arrival in that small city.
 The citizens were cheerful and industrious, good at bar-
 gaining — tradesmen and middlemen. The school, how-
-ever, had a greater distinction ; it was conducted by Val-
+ever, had a greater distinction; it was conducted by Val-
 fredo Carducci, brother of the great writer Giosue Car-
 ducci, who at that time was harvesting his laurels be-
 cause of his poetry and his inspiration drawn from Ro-
@@ -415,8 +397,6 @@ father had acquired an increasing reputation for his
 moral and political integrity.
 
 
-
-12 My Autobiography
 
 So the diploma came to me at last. I was a teacher!
 Many are the men who have found activity in political
@@ -456,7 +436,6 @@ To this day I thank difficulties. They were more nu-
 
 
 
-My Father is
 
 merous than the nice, happy incidents. But the latter
 gave me nothing. The difficulties of life have hardened
@@ -496,8 +475,6 @@ I knew hunger — stark hunger — in those days. But I
 
 
 
-14 My Autobiography
-
 never bent myself to ask for loans and I never tried to
 inspire the pity of those around me, nor of my own po-
 litical companions. I reduced my needs to a minimum
@@ -529,12 +506,11 @@ the army was calling me. I came back. There were greet-
 ings, questions, all the incidents of the return of an ad-
 venturer — and then I joined the regiment — a Bersag-
 lieri regiment at the historic city of Verona. The Ber-
-saglieri wear green cock feathers in their hats ; they are
+saglieri wear green cock feathers in their hats; they are
 famous for their fast pace, a kind of monotonous and
 
 
 
-My Father 15
 
 ground-covering dogtrot, and for their discipline and
 spirit.
@@ -544,7 +520,7 @@ ordination suited my temperament. I was preceded by
 a reputation of being restless, a fire eater, a radical, a
 revolutionist. Consider then the astonishment of the
 captain, the major, and my colonels, who were com-
-pelled to speak of me with praise ! It was my opportu-
+pelled to speak of me with praise! It was my opportu-
 nity to show serenity of spirit and strength of character.
 
 Verona, where my regiment was garrisoned, was and
@@ -558,7 +534,7 @@ mass, for the whole, made up of individuals, for its ma-
 neuvers and the tactics, the practice of defense and
 attack.
 
-My capacity was that of a simple soldier ; but I used
+My capacity was that of a simple soldier; but I used
 to weigh the character, abilities and individualities of
 those who commanded me. All Italian soldiers to a cer-
 tain extent do this. I learned in that way how important
@@ -573,8 +549,6 @@ dier. I might have taken up the courses for noncommis-
 
 
 
-16 My Autobiography
-
 sioned officers. But destiny, which dragged me from my
 fathers blacksmith shop to teaching and from teaching
 to exile and from exile to discipline, now decreed that I
@@ -584,7 +558,7 @@ in my life; it was the death of my mother.
 
 One day my captain took me aside. He was so con-
 siderate that I felt in advance something impending.
-He asked me to read a telegram. It was from my father.
+He asked me to read a telegram. It was from ther.
 My mother was dying! He urged my return. I rushed
 to catch the first train.
 
@@ -613,7 +587,6 @@ dicted my ascent. She had toiled and hoped too much
 
 
 
-My Father 17
 
 and died before she was yet forty-eight years old. She
 had, in her quiet manner, done superhuman labors.
@@ -654,8 +627,6 @@ was before me in the editorship of a local socialist news-
 
 
 
-18 My Autobiography
-
 paper. I understood now that the Gordian knot of Ital-
 ian political life could only be undone by an act of vio-
 lence.
@@ -694,7 +665,6 @@ by public opinion.
 
 
 
-My Father 19
 
 At the end he understood at last that the old eternal
 traditional forces such as capital could not he perma-
@@ -702,18 +672,11 @@ nently overthrown by a political revolution. He turned
 his attention at the end toward bettering the souls of in-
 dividuals. He wanted to make mankind true of heart
 and sensitive to fraternity. Many were the speeches and
-articles about him after his death ; three thousand of the
+articles about him after his death; three thousand of the
 men and women he had known followed his body to the
 grave. My fathers death marked the end of family
 unity for us, the family.
 
-
-
-CHAPTER III
-
-
-
-THE BOOK OF LIFE
 
 
 
@@ -743,17 +706,6 @@ sweat and blood.
 I was living most modestly with my family, with my
 wife Rachele, wise and excellent woman who has fol-
 lowed me with patience and devotion across all the wide
-
-20
-
-
-
-The Book of Life
-
-
-
-21
-
 
 
 vicissitudes of my life. My daughter Edda was then the
@@ -786,14 +738,10 @@ leaders! No means to go on! The middle class and the
 bourgeoisie gave us another picture of their insipid
 spirit.
 
-We were in J une then, picking over our own affairs
+We were in June then, picking over our own affairs
 with a microscope.
 
 Suddenly the murder of Serajevo came from the blue.
-
-
-
-22 My Autobiography
 
 In July — the war.
 
@@ -833,13 +781,7 @@ on all the shelves.
 
 I have never, with closed eyes, accepted the thoughts
 of others when they were estimating events and realities
-either in the normal course of things or when the situa-
-
-
-
-The Book of Life 23
-
-tion appeared exceptional. I have searched, to be sure,
+either in the normal course of things or when the situation appeared exceptional. I have searched, to be sure,
 with a spirit of analysis the whole ancient and modern
 history of my country. I have drawn parallels because
 I wanted to explore to the depths on the basis of his-
@@ -875,8 +817,6 @@ or measure in advance how long it is destined to go on.
 
 
 
-24 My Autobiography
-
 In politics, Italian life has had a rather short pano-
 rama of men. All know one another. I have not for-
 gotten those who in other days were my companions in
@@ -911,15 +851,6 @@ viaticums of life.
 
 I have read the Italian authors, old and new — think-
 ers, politicians, artists. I have always been attracted by
-
-
-
-The Book of Life
-
-
-
-25
-
 
 
 the study of our Renaissance in all its aspects. The
@@ -962,8 +893,6 @@ The American people, by their sure and active crea-
 
 
 
-26 My Autobiography
-
 tive lines of life, have touched, and touch, my sensibility.
 For I am a man of government and of party. I end-
 lessly admire those who make out of creative work a
@@ -999,9 +928,6 @@ America, a land harboring so many of our emigrants,
 still calls to the spirit of new youth.
 
 
-
-The Book of Life 27
-
 I look to her youth for her destinies and the preserva-
 tion of her growing ideals, just as I look to the youth of
 Italy for the progress of the Fascist state. It is not
@@ -1013,11 +939,6 @@ Carso — one of the bloodiest and most terrible spots of
 all the Allied battle fronts and in the vicissitudes of dif-
 ficult experiences in the struggle with life, I did not
 leave my own youth behind.
-
-
-
-CHAPTER IV
-
 
 
 WAR AND ITS EFFECT UPON A MAN
@@ -1050,11 +971,8 @@ Japan a long, disastrous and exhausting war. In 1911
 there was the Libyan war. In 1912 and 1913 two Balkan
 Wars had kept the awakened attention of Europe on
 
-28
 
 
-
-War and Its Effect Upon a Man 29
 
 the destinies of these nations. These wars had in them
 the characteristics of an extraordinary drama, as in the
@@ -1087,13 +1005,11 @@ from which sprang the philosophy of realities.
 
 Therefore I proceed by impression, by remembrances.
 I force my memory to build up, in a logical line running
-parallel l<» my thoughts and actions, the rich picture and
+parallel to my thoughts and actions, the rich picture and
 
 llimerable interlocking events which took place
 
 
-
-30 My Autobiography
 
 in the most tortured period that humanity ever knew. I
 was intimately entwined with it.
@@ -1121,7 +1037,7 @@ disturbed by flies.
 
 The tragedy of Serajevo, however, appeared to me
 to be the last straw. Every one understood that Austria
-would act. Strong measures ! All the embassies, all the
+would act. Strong measures! All the embassies, all the
 different political parties of Europe, realized the grav-
 ity of the case and its terrible consequences. They went
 feverishly to work to find a possible solution. And we
@@ -1130,8 +1046,6 @@ looked on!
 In Italy the echo of the murder of Serajevo aroused
 
 
-
-War and Its Effect Upon a Man 31
 
 only curiosity and a thirst for more news. Even when
 the corpses of the archduke and his wife were taken into
@@ -1167,8 +1081,6 @@ death gave surprise; it gave no sadness to us. For ob-
 vious reasons the pathetic end of the archduchess ere-
 
 
-
-32 My Autobiography
 
 ated feelings of a more sympathetic nature. We Italians
 are responsive, sympathetic.
@@ -1208,8 +1120,6 @@ were being drawn by destiny.
 
 
 
-War and Its Effect Upon a Man 33
-
 I must not forget that a few months previous to the
 Great War I had heard and noted a voice raised in the
 French parliament painting with pessimistic colors the
@@ -1246,8 +1156,6 @@ movement. The Marchese of San Giuliano, who was at
 
 
 
-34 My Autobiography
-
 the head of the Ministry of Foreign Affairs, faced by
 the Austrian ultimatum to Serbia and by the scheming
 to bring about war at all costs, had to play fast to keep
@@ -1265,7 +1173,7 @@ Russia in behalf of Serbia called also France against
 Germany, the ally of Austria-Hungary.
 
 I watched England. She was pondering deeply upon
-the step to take ; and then, in order to keep her suprem-
+the step to take; and then, in order to keep her suprem-
 acy, and also for the sake of her pride and the sake of
 humanity, she moved her formidable war machinery and
 quickened the organization of new armies to snatch from
@@ -1283,8 +1191,6 @@ also the feeling of a common culture which was com-
 pelling us to forget past and present quarrels. I could
 
 
-
-War and Its Effect Upon a Man 35
 
 not bear the idea that my country might abandon those
 who were crushed under the weight of war and unwar-
@@ -1315,18 +1221,15 @@ For obvious reasons it was read avidly by every class of
 citizens. The putting of that question was my most dis-
 tinguished effort at journalism.
 
-1 1, was sufficient to cause a part of public opinion to
+11, was sufficient to cause a part of public opinion to
 linn toward the possibility of our standing side by side
 frith France and England in the war. We could not, and
 should no!, forget that there were certain sentimental
 
 
 
-36
 
 
-
-My Autobiography
 
 
 
@@ -1367,8 +1270,6 @@ execution has made him immortal in Italian hearts.
 
 
 
-War and Its Effect Upon a Man 37
-
 Then there was the prophetic vision of that fiery revolu-
 tionary spirit, Filippo Corridoni. With their inspiration
 I began to drag with me a fraction of the Socialists in
@@ -1407,8 +1308,6 @@ Italians were looking beyond those peaceful conces-
 
 
 
-38 My Autobiography
-
 sions and those petty betterings of the borders. They did
 not believe in the sincerity of this scheming. I consid-
 ered it weak statesmanship — the statesmanship of com-
@@ -1445,8 +1344,6 @@ grasp only the abstract side, the political value, the spir-
 itual essence of the thing. To me, money is detestable;
 
 
-
-War and Its Effect Upon a Man 39
 
 what it may do is sometimes beautiful and sometimes
 noble.
@@ -1486,8 +1383,6 @@ of this newspaper which was born in 1914 and remained
 
 
 
-40 My Autobiography
-
 my platform up to 1922. It was an instrument for the
 making of me. The name of the Popolo dltalia will
 occur over and over again. Its story in any case may be
@@ -1524,8 +1419,6 @@ during the time of our war in Libya were put aside. No
 one remembered the episode of the French ships Ma-
 
 
-
-War and Its Effect Upon a Man 41
 
 nouba and Carthage, which brought help to the Turks,
 who were fighting against us, in January, 1912. Every-
@@ -1564,8 +1457,6 @@ now was to choose the right moment and the right way
 
 
 
-42 My Autobiography
-
 to jump into the war. We were breathing hard, our
 hearts were ready, we were awaiting the great hour. It
 came May 24, 1915. Can any one say what were my
@@ -1593,7 +1484,7 @@ places. I turned them down.
 
 I wanted to create the impression of a complete and
 rigid consistence with an ideal. This was not a scheming
-on my part for personal gain ; it was a deep need in my
+on my part for personal gain; it was a deep need in my
 nature of what I believed and still hold on to as my lifes
 dedication — namely, that once a man sets up to be the
 expounder of an idea or of a new school of thought, he
@@ -1603,9 +1494,7 @@ until victory — to the end!
 
 
 
-War and Its Effect Upon a Man 43
-
-Time has effaced many things ; the easy spirit of f or-
+Time has effaced many things; the easy spirit of f or-
 getfulness has erased so much. Victory, which came
 after forty-one months of hard fighting, has awakened
 many deep resentments.
@@ -1638,12 +1527,10 @@ tin muddling through! What we suffered the first
 
 ill lis cold, rain, mud, hunger! They did not succeed
 
-in ( I j 1 1 1 1 1 x ■ 1 1 i i ig in the slightest degree my enthusiasm and
-my OOnviction as to the necessity and the inevitableness
+ in the slightest degree my enthusiasm and
+my conviction as to the necessity and the inevitableness
 
 
-
-44 My Autobiography
 
 of war. They did not change the direction of one hair of
 my head, one thought in it.
@@ -1681,8 +1568,6 @@ danger that would be our life forever.
 
 
 
-War and Its Effect Upon a Man 45
-
 After the first period of hardship I became perfectly
 and almost comfortably accustomed to all the terrible
 elements that life in the trenches involves. I read with
@@ -1705,7 +1590,7 @@ became invaluable to me.
 In my rough heart I held a persistent admiration for
 the soldiers from all corners of Italy. Many ordered to
 the eastern front were not convinced of the historical
-basis for the war ; yet they knew how to obey their com-
+basis for the war; yet they knew how to obey their com-
 manding officers with admirable discipline. Many of
 those officers were students of the colleges and universi-
 ties. It was fine to see them striving to emulate the regu-
@@ -1719,8 +1604,6 @@ what war was. We were compelled, in breakneck haste,
 to modify our ideas, to change our systems of fighting
 
 
-
-46 My Autobiography
 
 and our methods of offense and defense. My heart was
 gladdened to see that the capacity for adaptability of
@@ -1758,8 +1641,6 @@ nelles and the developments in the eastern section. As
 
 
 
-War and Its Effect Upon a Man 47
-
 for Italy, never for a minute did I doubt that victory-
 would finally come to us. Though war were to last
 longer than the longest estimate, though our economic
@@ -1795,8 +1676,6 @@ I he Popolo dltalia exhorting to endless resistance. I
 pleaded for unshaken faith in final victory. For reasons
 
 
-
-48 My Autobiography
 
 of military discipline I used a nom de plume. Thus I
 found myself fighting in two ways— against the enemy
@@ -1846,8 +1725,6 @@ point of the extreme lines on the Carso.
 
 
 
-War and Its Effect Upon a Man 49
-
 In spite of all, my wounds began to heal. Better days
 and relief came. I received numberless telegrams of so-
 licitude and once His Majesty the King called; his
@@ -1855,7 +1732,7 @@ warm sense of humanity toward all soldiers and toward
 the victims of the war will never be forgotten by me or
 by Italy.
 
-A fter some months I found myself in a war hospital
+After some months I found myself in a war hospital
 in Milan. In August I began to walk with crutches, on
 which I swung about for many months. My limbs were
 too weak to support my weight.
@@ -1866,7 +1743,7 @@ ceivable failure of the Russian front was putting upon
 us new duties. It was necessary to face them. To all this
 there was added a subtle propaganda in the land. That
 despicable poison had as a slogan the vile sentence of a
-(Socialist member of parliament: We will desert the
+Socialist member of parliament: We will desert the
 trenches before the winter comes.
 
 There was need to fight to a finish these mysterious
@@ -1879,14 +1756,12 @@ WEI necessary to have the people feel highly the strength
 of Authority. It was necessary that the government
 should stand up in its shoes.
 
-1 do not choose to make posthumous recriminations.
+I do not choose to make posthumous recriminations.
 The weakness of internal politics in 1917, the feeble par-
-liament, y situation, the hateful socialistic propaganda,
+liament, my situation, the hateful socialistic propaganda,
 were certainly preparing the ground for events that
 
 
-
-50 My Autobiography
 
 could prove to be ruinous. And the blow came in Octo-
 ber, 1917; it took the name of Caporetto.
@@ -1925,8 +1800,6 @@ matic moments which seared my heart. But we may now
 
 
 
-War and Its Effect Upon a Man 51
-
 be sure that Italy did not go through the tragic hours
 that many armies and other countries underwent. Com-
 pare with our disaster the general picture of the Great
@@ -1959,13 +1832,9 @@ efforts, toward resistance and victory.
 Thus the winter went by. With the coming of the
 ipring the whole Italian people stretched out their ener-
 Kirs toward the front on the Piave and that on the
-1 1 1 ftppJL,
-
-A I Uutl A spirit of national solidarity, deep and
+spirit of national solidarity, deep and
 
 
-
-52 My Autobiography
 
 alive, had become the common property both of the sol-
 diers and of their families. A high spirit of duty and
@@ -2003,8 +1872,6 @@ enemy intended to take and use as a pincher against our
 
 
 
-War and Its Effect Upon a Man 53
-
 army, we held with dogged tenacity. There were oscilla-
 tions for a few miles, but the battle raged on without a
 stop. Our counter attacks came back always, again and
@@ -2040,8 +1907,6 @@ every moment. The enemys army, however, was still
 holding together and under the goad of necessity was
 
 
-
-54 My Autobiography
 
 sharpening the work of oppression on our two prov-
 inces which still remained under the weight of occupa-
@@ -2079,8 +1944,6 @@ Summer went by, and in October, 1918, our supreme
 
 
 
-War and Its Effect Upon a Man 55
-
 command, with fifty-one Italian divisions — to which
 were added three British, two French divisions, one
 American regiment and a few Czecho-Slovakian volun-
@@ -2116,8 +1979,6 @@ the holders— the natural borders which Dante had
 prophesied and defined in the fourteenth century.
 
 
-
-56 My Autobiography
 
 In every corner of the land the church-bells rang, sa-
 luting the new day. War, so long and so taxing, had
@@ -2156,8 +2017,6 @@ wealth, was treacherously deceived. Its fundamental
 
 
 
-War and Its Effect Upon a Man 57
-
 trustfulness was played upon in the making of the
 Treaty of Versailles.
 
@@ -2194,8 +2053,6 @@ tin nii res I sign of its strength, the highest title of its
 
 
 
-58 My Autobiography
-
 nobility, the vital food needed to reach greatness, will
 always be given by those who laid down their blood and
 life for their immortal country.
@@ -2206,15 +2063,7 @@ ones mind and ones soul.
 Above all, it gave to one, who was still young, an un-
 derstanding of the essences of mankind.
 
-
-
-CHAPTER V
-
-
-
 ASHES AND EMBERS
-
-
 
 THE flame of war flickered and went out. But the
 years 1919 and 1920 that immediately followed
@@ -2235,17 +2084,13 @@ if not treated heroically are deadly for the life of a civi-
 lized nation.
 
 Everything was discussed again. We Italians opened
-the !><»x of political problems and took apart the social
+the book of political problems and took apart the social
 clockwork. We pawed over everything from the crown
-to ] « rliament, from the army to our colonies, from capi-
+to parliament, from the army to our colonies, from capi-
 bftiiltifl property to the communistic soviet proposal for
 Hie Icdein lion of the regions of Italy, from schools to
 
-59
 
-
-
-60 My Autobiography
 
 the papacy. The lovely structure of concord and har-
 mony that we combatants and the wounded had dreamed
@@ -2271,7 +2116,7 @@ delivered city. In many Italian cities poor children of
 the old enemy Austrian and Hapsburg capital were
 asked to take precedence. It was a provoking sentimen-
 tality. A desire was already clear in the minds of sub-
-versives and of Liberal- Giolittians ; it was to strike
+versives and of Liberal- Giolittians; it was to strike
 out of our memories the sense and feeling of our victory.
 
 I knew those who whipped up our degeneration. They
@@ -2283,7 +2128,6 @@ not be expected to spare Italy. The soldiers, like my-
 
 
 
-Ashes and Embers 61
 
 
 
@@ -2316,15 +2160,13 @@ Politicians and philosophers, profiteers and losers —
 for ;il least many had lost their illusions — sharks trying
 l Mve Ihemselves; promoters of the war trying to be
 
-|<l id; demagogues seeking popularity; spies and
+demagogues seeking popularity; spies and
 
 Initiators of trouble waiting for the price of their trea-
 Oli; ngenls paid by foreign money in a few months
-thr< w the nution into an awful spiritual crisis. I saw be-
+throw the nution into an awful spiritual crisis. I saw be-
 
 
-
-62 My Autobiography-
 
 fore me with awe the gathering dusk of our end as a
 nation and a people.
@@ -2361,7 +2203,6 @@ than that of this silly renunciation. In the first months
 
 
 
-Ashes and Embers 63
 
 
 
@@ -2400,8 +2241,6 @@ cession, with an endless number of red flags, with thirty
 
 
 
-64 My Autobiography
-
 bands, with ensigns cursing the war. I saw a river in the
 street made of women, children, Russians, Germans,
 and Austrians, flowing through the town upward and
@@ -2439,13 +2278,12 @@ gle force, interventista or any other, set foot in the
 
 
 
-Ashes and Embers 65
 
 street to stop the irresponsibles. The beloved tricolor
 flag of Italy was taken as a mark. It was hastily taken
 off balconies !
 
-I remember an episode in the shame of those days ; a
+I remember an episode in the shame of those days; a
 woman, a school-teacher in the popular quarters, ran to
 the defense of the Italian flag. Risking her life, she
 stood with blazing eyes against a herd of communists.
@@ -2477,8 +2315,6 @@ Against the Return of the Beast.
 That article was published in the Popolo dltalia on
 
 
-
-66 My Autobiography
 
 the eighteenth of February and ended in these precise
 words :
@@ -2519,7 +2355,6 @@ of the danger that they might get into on account of
 
 
 
-Ashes and Embers 67
 
 i
 
@@ -2561,8 +2396,6 @@ combattvmcnto — the fighting Fascist programme.
 
 
 
-68 My Autobiography
-
 The first meeting of the Italian battle Fascists took
 place on the Piazza S. Sepolero in Milan. It was in a
 hall offered to us by the Milan Association of Mer-
@@ -2599,9 +2432,8 @@ that it was not only the anti-socialist battle we had to
 
 
 
-Ashes and Embers 69
 
-fight ; this was only a battle on the way. There was a lot
+fight; this was only a battle on the way. There was a lot
 more to do. All the conceptions of the so-called historical
 parties seemed to be dresses out of measure, shape, style,
 usefulness. They had grown tawdry and insufficient —
@@ -2638,8 +2470,6 @@ ment, to find the form.
 
 
 
-70 My Autobiography
-
 Those discussions over which I presided and domi-
 nated strengthened some of my conceptions that still
 conserve to-day the freshness of the original idea. Later,
@@ -2675,7 +2505,6 @@ tary virtues.
 
 
 
-Ashes and Embers 71
 
 
 
@@ -2705,7 +2534,7 @@ first was the following:
 The meeting of the twenty-third of March sends its first
 greeting and reverent thought to the sons of Italy who died
 for the greatness of their country and for the freedom of the
-world ; to the mutilated and to the invalids, to all those who
+world; to the mutilated and to the invalids, to all those who
 fought, to the ex-prisoners who fulfilled their duty. It de-
 clares itself ready to uphold with all its energy the material
 and moral claims that will be put forward by the associations
@@ -2715,8 +2544,6 @@ The second declaration pledged the Fascisti of Com-
 bat to oppose themselves to the imperialism of any other
 
 
-
-72 My Autobiography
 
 countries damaging to Italy. It accepted the supreme
 postulates o the League of Nations regarding^
@@ -2757,7 +2584,6 @@ policy continued to be nebulous and full of uncertainty
 
 
 
-Ashes and Embers 73
 
 Disillusion and the shattering of ideals could be no-
 ticed, even among those who had fought. A sense
@@ -2795,8 +2621,6 @@ uation, just as he was unable to be a master in foreign
 
 
 
-74 My Autobiography
-
 affairs. His work was contradictory, full of false senti-
 mentality and failure to comprehend the real interests
 of Italy. Not knowing French, and ignorant of the
@@ -2833,7 +2657,6 @@ sacrifice and those who had basely betrayed the nation
 
 
 
-Ashes and Embers 75
 
 
 
@@ -2847,7 +2670,7 @@ disorders or devastations sometimes brought about with
 the cost of lives. He never would face Bolshevism and
 the dissolutive forces in the open field. He had a decree
 issued and signed by the King establishing the price of
-bread ; he had it withdrawn on the next day and replaced
+bread; he had it withdrawn on the next day and replaced
 by another decree, also signed by His Majesty.
 
 There was no point in the national life that he failed
@@ -2855,7 +2678,7 @@ to bring up for discussion. All this puffed up the Social-
 ists. They laughed in their sleeves as they foresaw a
 strong political success for them at the elections. The
 elections had to take place under the proportional sys-
-tem ! The Socialists would become, through the election
+tem! The Socialists would become, through the election
 battle, masters of Italian political life !
 
 It seemed to me that the season was our summer of
@@ -2874,8 +2697,6 @@ For Italy, on the contrary, it was a complete shatter-
 ing of ideals. We had won the war; we were utterly
 
 
-
-76 My Autobiography
 
 defeated in the diplomatic battle. We were losing-ex-
 cept Zara-the whole of Dalmatia, our land by tradition
@@ -2913,7 +2734,6 @@ chological tide, while in the practical field it did not
 
 
 
-Ashes and Embers 77
 
 
 
@@ -2951,8 +2771,6 @@ poet, who lived in Rome, wrote that his approbation of
 my good shots was trembling with admiration.
 
 
-
-78 My Autobiography
 
 Victory was losing her laurel leaves every day in spite
 ©f all. The national parliament was discussing and ap-
@@ -2992,7 +2810,6 @@ English sailors were getting ready to evacuate it, was
 
 
 
-Ashes and Embers 79
 
 
 
@@ -3015,7 +2832,7 @@ I arise from bed with fever. But it is impossible to delay.
 Once more the spirit dominates the miserable flesh.
 
 Sum up the article that the Gazetta del Popolo will pub-
-lish ; give the end in full.
+lish; give the end in full.
 
 Sustain the cause without stint during the conflict.
 
@@ -3039,8 +2856,6 @@ all over the world — these colonists who had followed
 with anxiety and with unspeakable fright the negotia-
 
 
-
-80 My Autobiography
 
 tions of Versailles— sent money in great quantity for
 DAnnunzios expedition. Fiume felt an intuition of its
@@ -3084,7 +2899,6 @@ and the groupings. The Socialists, who were speculating
 
 
 
-Ashes and Embers 81
 
 on the misfortunes of the war and were pointing to the
 danger of another war due to the DAnnunzian enter-
@@ -3120,8 +2934,6 @@ torches, I addressed a big, closely pressed crowd. They
 were people not only from Milan but from other towns.
 
 
-
-82 My Autobiography
 
 The Fascisti of Bologna, of Turin, of Rome and of
 Naples had in fact sent their representatives in order to
@@ -3162,11 +2974,10 @@ may be remembered by all losers.
 
 
 
-Ashes and Embers 83
 
 Our uneasiness was now profound. The crowd was
 anti-Fascist. Under the skin of the population a sad
-illusion was being fed ; in their minds a dark hope was
+illusion was being fed; in their minds a dark hope was
 stirring. The coming of Bolshevism! The plan for seiz-
 ing the means of production, the installation of the
 Soviets in Italy!
@@ -3199,8 +3010,6 @@ episode, but I always see it in its frame — the frame of
 the misery and of the threadbareness of the paraders.
 
 
-
-84 My Autobiography
 
 The elections had given 150 seats to the Socialists in
 parliament. They were themselves frightened by their
@@ -3239,11 +3048,10 @@ associates as to the whole work before us. What should
 
 
 
-Ashes and Embers
 
 
 
-we do now? How could we act before Ihe cliini:ige i<>
+we do now? How could we act before
 Italy became irreparable?
 
 The electoral tragedy had broken up our central 00m«
@@ -3278,8 +3086,6 @@ win on any declaration of a great faith.
 I did not fold under the smallest edge of my flag.
 
 
-
-86 My Autobiography
 
 From my editors office that was getting barer and
 barer, to my readers that were getting fewer and fewer
@@ -3317,7 +3123,6 @@ of the discussions, the stenciled inscriptions on the walls
 
 
 
-Ashes and Embers 87
 
 were all there. I presented myself with my hrother, Ar-
 naldo, at the window of the money-order office.
@@ -3352,8 +3157,6 @@ will resist! Resist! I should say so! Indeed, within two
 years I will have my turn!
 
 
-
-CHAPTER VI
 
 
 
@@ -3427,8 +3230,6 @@ shifts and maneuvers of parliamentary cloakrooms and
 
 
 
-90 My Autobiography
-
 corridors in the same old disgusting struggle to grab
 places in the Ministry.
 
@@ -3463,11 +3264,10 @@ Nevertheless, we began to see our way through.
 To reorganize the ranks of Fascism was not a matter
 of impossible difficulty, because the Fasci di Combatti-
 mento— Bundles of Fight— had learned discipline and
-enthusiasm ; we could stand our shocks from mere elec-
+enthusiasm; we could stand our shocks from mere elec-
 
 
 
-A Worn-Out Democracy 91
 
 toral vicissitudes. And on the other hand, some stra-
 tegic leadership began to show itself at Florence, where,
@@ -3477,7 +3277,7 @@ characteristic meeting! The adherents were obliged to
 defend the liberty of assembling by the voice of the
 revolver. Florence, a city with a tradition of kindness
 and hospitality, received the Fascists with violent hos-
-tility. Ambushes ! Provocations ! Nevertheless, the meet-
+tility. Ambushes! Provocations! Nevertheless, the meet-
 ing was held. Our friends were able to control the place.
 By great energy they broke down resistance and sup-
 pressed the unprovoked violence of our opponents.
@@ -3492,8 +3292,7 @@ tary, Pasella, presented a resolution in which the Fasci
 di Combattimento claimed the right to formulate for
 Italy a fundamental transformation of the state. It was
 a clearly defined programme of political convenience
-and expediency, aiming to create an absolutely new so-
-<-i.il and economic state.
+and expediency, aiming to create an absolutely new social and economic state.
 
 I have interpreted and carried out that purpose. If
 the end I now seek is to disclose the paths which have led
@@ -3503,8 +3302,6 @@ lli.il Hie most significant guideposts may be found.
 The programme of the Fasci was approved to a man.
 
 
-
-92 My Autobiography
 
 There, indeed, was the disclosed warning of the Fascist
 regime to come. To the regimes problem, however, there
@@ -3516,7 +3313,7 @@ deliverance and autonomy of the worker. We sent a
 greeting to all those numerous groups of proletarians
 and employes who are not willing to submit to the lead-
 ership of political parties composed and controlled
-chiefly by bill,, and big mediocrity which is now trving
+chiefly by bill and big mediocrity which is now trving
 by impoverishing and mystifying the masses, to gain
 applause and salaries. I often wonder if other nations
 do not feel the same.
@@ -3541,12 +3338,11 @@ harassed m spirit of all who were there. But to the
 
 
 
-A Worn-Out Democracy 93
 
 ryes of the glowing crowd I was a patriot, a preacher
 Of resistance, he who succeeded, through the violent arti-
-olei written from day to day in the Popolo dllalia, in
-l>< .inning the smashing of Bolshevism. The meeting
+olei written from day to day in the Popolo dllalia
+winning the smashing of Bolshevism. The meeting
 u.is ended in Fascist style; we swore to see one another
 Mfain; we promised ourselves victory at any price.
 
@@ -3576,8 +3372,6 @@ OOUld to comfort them. Finally I departed again by
 train to Bologna. The incident might have had greater
 
 
-
-94 My Autobiography
 
 consequences, but fortune assisted me; I felt that the
 hatred of our adversaries had been my talisman.
@@ -3616,7 +3410,6 @@ say, made honorable amends for their errors.
 
 
 
-A Worn-Out Democracy 95
 
 But meanwhile, taking a pretext from this episode,
 there was launched against me the furious wrath of the
@@ -3646,13 +3439,11 @@ estedness. True men, in politics, must be animated by
 I he humane and devout sense; they must have a regard,
 B love toward and a deep vision regarding their own
 fellow creatures. And all these qualities must not be
-defiled l>y dissimulations or rhetoric or flatteries or com-
+defiled by dissimulations or rhetoric or flatteries or com-
 promises or servile concessions. On this ground, at least,
-| um proud to know myself as one not to be suspected
+I'm proud to know myself as one not to be suspected
 
 
-
-96 My Autobiography
 
 —even by myself— and feeling that my inmost moral
 fiber is invincible.
@@ -3690,7 +3481,6 @@ us. To us the fight has the prize in itself, though it be
 
 
 
-A Worn -Out Democracy 97
 
 mil crowned by victory. The world now has some
 si range analogy with that of Julian the Apostate. The
@@ -3720,7 +3510,7 @@ delicate by the international situation. The Avanti, the
 oflicial newspaper of the Socialist party, of which I had
 once been editor, wrote on that occasion that the post,
 telegraph and telephone offices were a luxury of modern
-times ; that the ancient peoples had been great even with-
+times; that the ancient peoples had been great even with-
 out telegraphic apparatus. Who knows whether this
 gibberish came from a mocking spirit or from the kind
 of confirmed idiocy with which extremists are afflicted?
@@ -3729,9 +3519,7 @@ The stated cause of the agitations was always eco-
 
 
 
-98 My Autobiography
-
-nomic, but in truth the end was wholly political ; the real
+nomic, but in truth the end was wholly political; the real
 intention was to strike a blow full in the face of the
 states authority, against the middle classes and against
 disciplined order, with a view to establishing the Soviets
@@ -3766,7 +3554,6 @@ moment of the negotiations in Paris. This is the moment
 
 
 
-A Worn-Out Democracy 99
 
 in which there is the one question — to get, finally, a
 Mace, Why didnt the postal, the telegraph and tele-
@@ -3804,8 +3591,6 @@ tried to separate their responsibility from that of the
 
 
 
-100 My Autobiography
-
 leaders who had proclaimed the strike. On that occasion*
 in the Popolo d Italia of January twenty-first, I pub-
 lished an article entitled Too Late! I thrust into the
@@ -3838,13 +3623,12 @@ putes of classes there was thrust an event colored with
 highest idealism. It was arranged that the suffering chil-
 dren of Fiume should be brought to Milan. They had
 been enduring the hardships of a blockaded town, with-
-out economic resources ; they were at the mercy of their
+out economic resources; they were at the mercy of their
 own distress. Already the children of Vienna, the sons
 of our enemies, had obtained in Milan kind treatment.
 
 
 
-A Worn-Out Democracy 101
 
 Wns it not admissible that there should be found love
 Hid pity for the Italian infants of Quarnero? The epi-
@@ -3883,13 +3667,11 @@ born Juglo-Slavian irreconcilableness our Cagoia knows
 
 
 
-102 My Autobiography
-
 nothing better than to wail, weep and— yield. The whole tone
 of his speech is vile, dreadfully vile. Not in vanquished Ger-
 many, nor in Austria, has there been so vile a Minister as
 Nitti. If there had been one, he could not have lasted. This
-one is the Minister of runaways, of autolesionists ; he is the
+one is the Minister of runaways, of autolesionists; he is the
 Minister of Modigliani, the man of peao« at any price. By
 trying to remember continually thai, the objectives of Italy
 were Trento and Triest, Cagoia offers arms lo the Jugo-
@@ -3928,7 +3710,6 @@ against the entrance of Italy into the World War. He
 
 
 
-A Worn -Out Democracy 103
 
 ftlways stood apart during the most bleeding and tragic
 periods of Italian life. Consequently, he was the least
@@ -3950,7 +3731,7 @@ lar party. But more important, it was employed against
 the raising of Fascism and against the war victory.
 
 Strikes were characterized by violent, disgraceful
-clashes between police and soldiers and the citizens ; the
+clashes between police and soldiers and the citizens; the
 interminable parliamentary discussions were marked by
 fist fights on the floor of the chamber. These were pitiful
 spectacles, humiliating not only to citizenship and to
@@ -3965,8 +3746,6 @@ tual eoncessions, and very heavy ones. Miserable. Use-
 less. Nobody was thinking of the rebuilding of social
 
 
-
-104 My Autobiography
 
 order in a nation which had won a bloody war and which
 had to face the fact that it was living in the presence of
@@ -4003,7 +3782,6 @@ did not wait for a second invitation. I am used to facing
 
 
 
-A Worn -Out Democracy 105
 
 the rabble without fear. The more there are of them, the
 more a man can move toward them with a sure courage
@@ -4043,8 +3821,6 @@ happy regions. Students, professors, workmen, citizens
 
 
 
-106 My Autobiography
-
 — representative men — were entreating the ministers
 and the professional politicians. There was an appeal
 from all the groups representative of the best Italian
@@ -4078,7 +3854,6 @@ dignity, the right and the nobility of the Italian people.
 
 
 
-A Worn-Out Democracy 107
 
 A group of senators, at the head of whom was the
 (Jeneralissimo Diaz, presented the following motion:
@@ -4105,8 +3880,8 @@ The motion, in addition to its hint to awake Italian
 tradition, had strength and vigor, and disdain for the
 outrage done to the Italian war victory. The leader of
 that disdain, before all others, was Armando Diaz. The
-generalissimo bore about him the glory of Vittorio Ve-
-in l<>. He saw from day to day that his fine and lofty
+generalissimo bore about him the glory of Vittorio.
+ He saw from day to day that his fine and lofty
 Idealism as soldier and chieftain was fading away.
 
 The Nitti government — part and parcel of a decadent
@@ -4115,8 +3890,6 @@ ernment, bearing the stamp of mere pandering for favor
 and burned with the brand of politicians scrambling for
 
 
-
-108 My Autobiography
 
 power without regard for the nation and without brave
 idealism— fell ingloriously for the third time.
@@ -4127,13 +3900,11 @@ ment and the political system had revealed itself as an
 assembly wholly unworthy to control or guide the des-
 tinies of a people. At the third fall of Nitti, Giolitti, of
 whom it may be said that he made the premiership a
-profession, came buck „,,„„ S(rne . His return gaye
-some of us Lho impression lh.,| |„. was a k md of a re .
-ceiver in bankruptcy for so culled self-government.
+profession, came bankruptcy for so culled self-government.
 
-Justice require! <>nr recognition of a great rectitude
-in the private life of ( | „,|,| 1 1 • * ,. ( ,, lMMot say so much for
-his rectitude in his politic*] oWteter. He was a dis-
+Justice require! Nor recognition of a great rectitude
+in the private life of not say so much for
+his rectitude in his politics. He was a dis-
 solver. He never gave evidence of believing in the deep
 idealistic springs and streams of I talian life. As a crea-
 ture of the bureaucracy, he trusted the whole Italian
@@ -4154,7 +3925,6 @@ elements, supported also by some domestic political
 
 
 
-A Worn-Out Democracy 109
 
 compromises, were inciting the Albanian population
 against us. This noble land, which is but twelve hours
@@ -4192,8 +3962,6 @@ alone protested. The Italian people were suffering pas-
 
 
 
-HO My Autobiography
-
 sively from a stupid conception of their opportunities
 and from blindness which closed their eyes to their own
 power and pride. Those who dared to resist and were
@@ -4230,7 +3998,6 @@ stations, situated at the boundaries of the district of
 
 
 
-A Worn-Out Democracy 111
 
 Milan, had in store heaps on heaps of goods; of course
 these stores decayed or deteriorated and were at the
@@ -4242,7 +4009,7 @@ firearms, with dead and wounded, the railway men,
 overpowered by the indignation which had spread
 through the whole body of citizens, were convinced that
 it was better to return to work. But the states author-
-ity was dead ; it was now ready for the grave.
+ity was dead; it was now ready for the grave.
 
 The Giolitti ministry muddled amid a quantity of
 financial difficulties. Giolitti himself hoped to be able
@@ -4266,8 +4033,6 @@ Valona and Albania, signed the weak treaty of Sevres
 with Turkey, and prepared by fits and starts to attempt
 
 
-
-112 My Autobiography
 
 an end also of the question of Fiume. This last hap-
 pened at the conclusion of the treaty of Rapallo.
@@ -4307,7 +4072,6 @@ came out of the sky above Verona. Returning from a
 
 
 
-A Worn-Out Democracy 113
 
 trip to Venice, a big airplane fell upon the city. The
 mishap caused the death of sixteen persons, including
@@ -4346,8 +4110,6 @@ The growing exaltation of the bewitched masses and
 
 
 
-114 My Autobiography
-
 the incredible weakness of the government culminated
 at the beginning of September with the occupation of
 the factories on the part of the metal workers. The oc-
@@ -4357,8 +4119,7 @@ the taking possession of the means of production. The
 workmen, with the ir childish understanding, and much
 more the chiefs who were betraying them-and well
 aware of their . rcachcry as they did so-p r etended that
-they were able |„ „ ( | mmi . sl „. (lim>Uy> without an ^
-
+they were able  without anything
 from any one planned beforehand, all the workshops,
 all the processes, and even (be sales of the output. In
 truth, though it is nut Commonly realized, they did
@@ -4384,7 +4145,6 @@ The seizure of the factories was accompanied by the
 
 
 
-A Worn-Out Democracy 115
 
 most, ferocious acts. At Turin, the old capital of Pied-
 mont, which had such glorious monarchical and military
@@ -4409,7 +4169,7 @@ barbarous murder as follows:
 
 It may happen in life for one to be nationalist, to pass to
 Fascism, to reflect the tendencies of order and to be, never-
-theless, arrested and shot to death ; this is an average stroke
+theless, arrested and shot to death; this is an average stroke
 of destiny.
 
 The occupation of the factories in several Italian
@@ -4421,8 +4181,6 @@ peninjula.
 Our credit abroad had been extinguished like a
 
 
-
-116 My Autobiography
 
 puffed-out candle. Even after the conclusion of peace,
 there was little thought any longer devoted to a rehabili-
@@ -4460,7 +4218,6 @@ tense in Ferrara, and the Bloody Christmas in Fiume.
 
 
 
-A Worn-Out Democracy 117
 
 In Bologna there was a bold handful of Fascists led
 by Arpinati. We were aware that the Socialists were
@@ -4496,8 +4253,6 @@ longer able to do as they pleased but also because physi-
 
 
 
-118 My Autobiography
-
 cal fear had taken possession of their leaders all up and
 down the line. I say categorically that fear and cow-
 ardice have always been typical characteristics of the
@@ -4505,16 +4260,13 @@ Socialist party in Italy.
 
 At the moment when about thirty Fascists formed in
 tiny squads and tried to go from Indipendenza Street
-the open space crowded will, ,| K . Socialists, there came
+the open space crowded will, Socialists, there came
 a general scattering and a disordered shouting and
-clamor. A portion of ,,„„;„, , roW(] pQured ^ fo
+clamor. A portion of the Socialists,
+barreled there in the fortress, blinded by their own
 
-he C,ty 1,1 ,nd c„.cr<,l Ihc eonrlyard. The Socialists,
-barreled there „s in , fortress, hlinded by their own
-
-base fears, supposed mat all .he fugitives were Fas-
-
-cists; they Reared that th< City Hall might be invaded;
+base fears, supposed  all the fugitives were Fascists;
+they Reared that the City Hall might be invaded;
 
 therefore hey threw from above, upon the crowd, hand
 
@@ -4526,7 +4278,7 @@ of the people ran off, tearing up their tickets of the So-
 ciatistic organizations.
 
 While these events were going on around the palace
-and m the courtyard, in the Hall of ,|„ City Council
+and m the courtyard, in the Hall of City Council
 there exploded a sudden tragedy. The red members of
 the council, frightened by the apprehension of a Fas-
 cist invasion thronged for the most part toward the
@@ -4540,7 +4292,6 @@ eate Giordani and advocates Oviglio, Biagi, Colliva
 
 
 
-A Worn-Out Democracy 119
 
 Manaresi — firmly kept their places, offering a conspicu-
 ous mark for wrath whipped up hy fear. Somebody
@@ -4571,13 +4322,11 @@ tain revolution. What revolution?
 
 I called to Milan the responsible chiefs of the Fascist
 movement, the representatives of the Po Valley, of Up-
-l>( i I laly, of the towns and countrysides. Those present
+Italy, of the towns and countrysides. Those present
 were nol many, but they were men resolved to take any
 risk. I made them understand, as I had suddenly un-
 
 
-
-120 My Autobiography
 
 derstood, that through newspaper propaganda, or by
 example, we would never attain any great successes. It
@@ -4593,8 +4342,6 @@ Our democracy of ycslcnJays had died; its testament
 had been read; it Imd Ih^uchIIic! us naught but chaos.
 
 
-
-CHAPTER VII
 
 
 
@@ -4631,8 +4378,6 @@ them through milk-and-water propaganda and through
 
 
 
-122 My Autobiography
-
 words, words and more words-parliamentary and
 journalistic sham battles.
 
@@ -4646,11 +4391,10 @@ Rapallo, by which Fiume was doomed to be a separate
 body, the Italian resistance in Fiume made itself more
 deeded than ever. DAnnunzio declared that, whatever
 the cost, he would nol abandon lh, c ity which had suf-
-fered so brig and painfully lo kit-,, alive and keep pure
+fered so brig and painfully lo kit- alive and keep pure
 its Italian soul.
 
-I, too, had Ik, ,, living (his ,| nilriIl) ( , ay by d&y jy>j^ n _
-nunzK> and I had been close- together since the first days
+I, too, had and I had been close- together since the first days
 of the campaign. Now for more lhan a year I had been
 accustomed to receive his brolhcrly letters. They
 brought to me the breath of the passion of F iume . Since
@@ -4666,12 +4410,10 @@ send my son Gabriellino, brave companion, lo bring you this
 manuscript. Look out for any needed correction, and think
 you. This is only the first act of a struggle that i wifl see to
 
-I TA^u i ^ ° Wn ^ In the ^ent that the een o^hip
-should be bold enough to interfere, pl ease publish he S
+ please publish
 
 
 
-The Garden of Fascism 123
 
 
 
@@ -4680,7 +4422,7 @@ Then we will see what we shall see.
 
 I will write you again. I will come. I admin your con-
 si ancy and the strength of your well-directed blows. Let me
-c lasp your hand. Yours,
+clasp your hand. Yours,
 
 Gabriele dAnnunzio.
 
@@ -4711,11 +4453,9 @@ a message which found an echo in all Italian hearts :
 
 
 Beneath all the verbosity and the shuttle of mere words,
-the drama is perfect ; horrible, if you choose, but perfect. On
+the drama is perfect; horrible, if you choose, but perfect. On
 
 
-
-124 My Autobiography
 
 one side is the cold Reason of State determined to the very
 bottom on the other the warm Reason of the Ideal ready to
@@ -4726,13 +4466,8 @@ calmly the Reason of the Ideal.
 A few days later, on January 4, 1921, I commem-
 orated the dead of the Legion of Rorichi by one of the
 most fervid articles I ever wrote. Jt ended with the fol-
-lowing words:
-
-They are ,,„ , , , f „ - , „„, ^ ^ ^ ^
-
-m van,! 1 he UnUnn ricolorcd | Mllincr hails them, Italian
-eaith covers Hum,,. The,,- gravte n,e « shrine. There all fac-
-tions and d,v,s,o„s an- obliterated. The dead of Carnaro bear
+lowing words. There all fac-
+tions and obliterated. The dead of Carnaro bear
 witness tha laune and Italy are one, the same flesh, the
 same soul Ihe opaque u,k ol the diplomats will never undo
 What has been sealed by blood forever.
@@ -4741,7 +4476,6 @@ Hail then to the Ronchi Legion, lothe Duce— the leader,
 D Annunzio to his living who return and to his dead who
 never will.
 
-NeloTso! 1 ^ 6 remainCd *° 8» rrkoa U» HIOWJ mountains—
 
 The iron necessity of violence already had been con-
 firmed. Every one of us felt it. Now came the moment
@@ -4757,12 +4491,12 @@ trained to be loyal, as were the legions of Garibaldi, and
 
 
 
-The Garden of Fascism 125
+The Garden of Fascism
 
 above all chivalrous. The Central Committee of the Ital-
 ian Bundles of Fight co-ordinated, under my direction,
 the whole work of the local executives and of the action
-■quads, not only in the provinces but even in the towns.
+quads, not only in the provinces but even in the towns.
 Valiant and vigorous elements joined us from the uni-
 versities. Italian schools are enriched by the glorious
 names of students who quitted their halls for political
@@ -4792,8 +4526,6 @@ of f acing ambush, traps and death. When instead we
 were taken to prison, we remained there long periods
 
 
-
-m My Autobiography
 
 waiting for trial. I had an effect on my soldiers which
 seemed to me almost mystical. The boys saw in me the
@@ -4828,11 +4560,6 @@ with the rank and file. At times they obeyed me with re-
 gret and pain. They were thinking of companions
 treacherously murdered. But they always submitted to
 my orders against reprisals. They accepted my author-
-
-
-
-The Garden of Fascism 127
-
 
 
 ity voluntarily and completely. If I had had a mind to
@@ -4871,8 +4598,6 @@ erals was enormous. My gesture, prodigal and generous,
 
 
 
-128 My Autobiography
-
 created solely by me, served only to raise new fogs,
 miasmas and equivocations. The truce had been signed
 by the Socialists but not by the communists. The latter
@@ -4885,7 +4610,7 @@ thesis, was taken up again. It Listed until the final out-
 come, but its renewal w as I lie beginning of the great
 political battle of 11)21.
 
-I will not sel forth .ill !!,<• deadly frays of this year.
+I will not sel forth deadly frays of this year.
 They have gone into I he pftlt. But in the houses of my
 men are burning perennially the votive lamps of the
 survivors and on their hearths is the living memory of
@@ -4908,7 +4633,6 @@ of Italian political life played such a loathsome part.
 
 
 
-The Garden of Fascism 129
 
 I knew — and it was evident to every one in spite of
 concealment — that the new Communist party was in-
@@ -4939,50 +4663,15 @@ disintegration fostered by those who had led us into a
 morass.
 
 The fault of the renunciation, I affirmed, is not to
-l>e attributed entirely to the negotiators at the last hour;
+be attributed entirely to the negotiators at the last hour;
 the renunciation had been perpetrated already in par-
 liament, in our journalism, even in a university where
 
 
 
-130 My Autobiography
-
-a professor has published books— transit «
-
-at Zag-abria— in ow W * , translated, of course,
-
-stop to these ffrotc,,,,. , We hope to put a
-
-will k„o„ T    ,y lulure ™rk. We
-
-byoneofthero,:,, : ; , ; * void
-
-siUe to excite the ,„„„ in „„. . „.,.„ 14 18 lm P° s -
-
-peace af|,. r (iv ,. ,. ,    « amsl > reaty of
-
-t<.pe,ro,,, „ h
-
-—on in
-
-not possible to think „ , ,  ? * ™ S
-
-peaee treat, which, g00 l^ ^ l ° «■» > «
-ninety ont o f every hundred pTxt^T «~** *
-
--Having delineated clearlv ll,, ,  , •
-*>ry p„ s i, ion in which X^l ^-^-
-m respect to the Fiume tr, m ,l,. , me
-
-shown the impossibilitrof * J:,
-
-would have been ,™ \ «eat„ lf r a revolution which
-
-I hid do™ Z ZTwl   emntd t0 M%
+a professor has published books.
 
 
-
-The Garden of Fascism 131
 
 the application of which can be a source of hatred and
 incentive to new wars;
@@ -5026,8 +4715,6 @@ litis passion to the coming generations; let us make of
 
 
 
-132 My Autobiography
-
 Italy one of the nations without which it is impossible
 to conceive the future history of humanity.
 
@@ -5067,7 +4754,6 @@ to a bloody pulp and thrown from the parapet into the
 
 
 
-The Garden of Fascism
 
 
 
@@ -5112,32 +4798,13 @@ Fifty others were mutilated. All Milan gave itself up
 
 
 
-134 My Autobiography
-
 to anguish and anger and to chills of vengeance There
-wasno poss lb ilitv of checking public sentL nt S ^
-ol * ascists assaulted for tho **™ n A u «. ^quaas
-Avanti and it was burl, v T * neWSp3per
-
-assault the Worker C , *** ^ also to
-
-The swift .1   sts an<i Socialists.
-
-from tl T V     ■ 1 •• -»- -^rved to drive
-from t r nes , „,„, „,„ ,„ ™
-
-order. J he „„,„„,,, „„„„ ,,„ wcrJess . ; ™
-
-demonstration of str ,„ K „ , ,„ ,„. lm ^ n /t7J.
-
-attain the serene pelTof th • 7 ^ a « ain
-Wfui virtue, JZ$£. *T - -
+was no possibilitv of checking public.
 
 
+The Garden of Fascism.
 
-The Garden of Fascism 135
-
-holes and were barricaded in the few forts of the Work-
+Holes and were barricaded in the few forts of the Work-
 ers Chambers and of the district clubs.
 
 I led a life of intense activity. I managed the Popolo
@@ -5173,48 +4840,26 @@ The first flight came off without incident. During the
 
 
 
-136 My Autobiography
-
-second flight, on tbe co
-
-son stalled, Jus t at the moment when we were ZZZ
+second flight, on the coson stalled, Just at the moment when we were ZZZ
 he maneuver of coming down. The machine veered
+onto he field from a height of ahont forty metres
+The pdot came off with sonlight wounds on the fore-head.
 
-us orri, u e ; 8lidin * on ° ne ■*» ^
-
-» onto he field from a height of ahont forty metres
-The pdot came off with son,,- light wounds on the fore-
-
-head. I had several ah „„. ,..„., which would Lu£
-
-wo weeks to heal. An„ an , ,.g,,,cy treatmT
-
-the fle d I was treated „„„,. ,h„,,„ lff | lJv b D
-mrdo r, I, , „,. „„.,,„,„.„„, ^ y JJ p J t ^£
-
-That mealed, whicl g,„ had marked comi
-
-. q  5   he kind treatment
-
-^SC ,fri U,  A
 
 This incident, however, gave OX the opportunity to
-measure how many Italians were following^
+measure how many Italians were following
 
-^nitookupmyri.::;;:;;; zrz^T
 
 On the day of the carnage at the Diana and of the
 consequent reprisals, while spirits were kindled and irri
-tated, a eertam Masi, sent by the anarchists of Pi
+tated, a eertam Masi, sent by the anarchists of extraordinary
+men. My daughter Edda went to open the door
 
-mTen Mv f I! 8  * ange Creature ° f extraordinary
-■men. My daughter Edda went to open the door
-
->po« tfTfaJw, but went below and waited for me on
+ but went below and waited for me on
 
 
 
-The Garden of Fascism 137
+The Garden of Fascism,
 
 the large public square of Foro Bonaparte. When he
 saw me he came toward me at first rapidly, and then
@@ -5235,7 +4880,7 @@ behavior was so curious that I asked him to tell me
 promptly and sympathetically what he wanted to say.
 
 After a moment of hesitation he told me that he had
-l>een chosen by lot, in a drawing by the anarchists of
+been chosen by lot, in a drawing by the anarchists of
 Iiombino, to murder me treacherously with a Berretta
 pistol. Later, having been caught in some doubts, he had
 resolved to come and confess everything to me, to hand
@@ -5251,8 +4896,6 @@ Of liis dreams. I wanted Sant Elia to accompany him
 lo Triest, with a letter of introduction to the Fascist
 
 
-
-138 My Autobiography
 
 Giunta. Soon afterward, however, the police— informed
 by what means I know not of the episode— arrested the
@@ -5291,7 +4934,7 @@ try vicars.
 
 
 
-The Garden of Fascism 139
+The Garden of Fascism
 
 In order to make myself acquainted with the real
 efficiency of our party, I started reconnoitering in sev-
@@ -5328,23 +4971,21 @@ litical elections of 1919, I succeeded this time in getting
 
 
 
-140 My Autobiography
-
 a plurality not only in Milan but also in the districts
 of Bologna and Ferrara. Great demonstrations of iov
 followed the news. Furthermore, all Fascism in the elec-
 toral field was gaining in undoubted strides
 
 In November, 1919, I bad not succeeded in getting
-more than 4,000 votes. [ n ,<,,>, I was at the head of the
+more than 4,000 votes. I was at the head of the
 hst W1 th 178,000 votes. My l ion ,„ the Italian Cham-
 ber caused a great rejoieing among ,„y friends, my col-
 leagues, n, y assistant.. To ,11 my faithful sub-eiitors,
 Giuliani, Gaini, Rocca, Morgagnj and others, I recalled
 
-the ep.so, le ( ,f when I said to my discouraged and
+the episode (of when I said to my discouraged and
 
-perplex,, assislan.s thai within | lie space of two years
+perplexed assislanants that within there lie space of two years.
 
 I would have my revenge, The prophecy had proved
 
@@ -5366,7 +5007,7 @@ cases to grve my oratory a spirit and to make it stick to
 reahties. Certainly I confined it to a devotion to the in-
 terests of Italian life. I pnt aside parliamentary triflings
 and the tin sword play of parliamentary politicians.
-The Garden of Fascism 141
+The Garden of Fascism
 In a speech made on the twenty-first of June, 1921,
 I criticised without reserve the foreign policy of the
 Giolitti ministry. I put on a firm, realistic basis the ques-
@@ -5401,31 +5042,23 @@ power or personal gain.
 
 
 
-142 My Autobiography
-
 The speech, which had only the purpose of clarifica-
 tion, gave some needed hints as to our political action as
 Fascists m destruction of the methods and principles of
 our adversaries. To my surprise it created a deep im-
 press^ It had a vast echo outside the chamber and
-was undoubtedly among ,1,, factors which finally
-doomed the Giolitti minis!,,, 1,1,. ,|| the rest, to topple
-over like a drunken buna - « I.
+was undoubtedly among factors which finally
+doomed the Giolitti ministry the rest, to topple
+over like a drunken buna.
 
 I was not alone in Ihe parliamentary struggle. The
-group was helping me valiantly ,nd with ability. Al-
-ready the ,ep,, y Fedenoni, s„,e then a distinguished
-•fflcwl of the Fuebt Male, bad Itarted a review and re-
-turn of th e whole w ,,u of Count Sforza, Giolittis
-
-Muus er of Kore.gn A /fairs, and particularly of the
-Adriatic pohcy. There had !,,,„ dnunatic sessions in
-winch the work of the aforcsa.d tuinirter not only was
+group was helping me valiantly. There had sessions in
+which the work not only was
 put under a strict and inexorable examination, accord-
-ing to both the logic and conse,e,,e of Fascism but
+ing to both the logic and consequence of Fascism but
 was examined in the light of .he negotiations and
-treaties open or secret, which (he parliament had to
-Jcnow and approve.
+treaties open or secret, which (the parliament had to
+know and approve.
 
 After various parliamentary ups and downs, the Gio-
 htti ministry fell and was followed by that of Bonomi
@@ -5440,7 +5073,7 @@ less than eighteen Fascists fell. Then came the butchery
 
 
 
-The Garden of Fascism 143
+The Garden of Fascism
 
 of Modena, where the Royal Guards shot into a parade
 of Fascists, leaving some ten dead and many wounded.
@@ -5478,8 +5111,6 @@ should be crystallized.
 
 
 
-144 My Autobiography
-
 The Italian Bundles of Fight had been inspired by an
 impetuous spirit. They possessed therefore an organiza-
 tion of battle rather than a true and proper organization
@@ -5487,7 +5118,7 @@ of party. It was now necessary to come to this second
 phase m order to be prepared to be a .successor of the
 old parties m the command and direction of public af-
 fairs. The congress at the Augmteo— the tomb of Au-
-gustus and now a conccrl hall m I{o,nc-had to agree on
+gustus and now a concert hall. I had to agree on
 the terms for the creation of the new party. It had to
 fix both the organization and Ihc programme.
 
@@ -5515,7 +5146,7 @@ fundamental strength of Fascism, but especially for me
 
 
 
-The Garden of Fascism 145
+The Garden of Fascism
 
 it was a revelation of my personal strength. But there
 were several unpleasant incidents. There had heen some
@@ -5552,23 +5183,21 @@ the postwar Italian financial policy a sensation of dis-
 
 
 
-146 My Autobiography
-
 may and failure. Ignorance, foolishness, fault, levity? ]
 Who knows? *
 
 Certainly our credit as a power and as a rebuilding
 force m comparison with foreign countries diminished
-enormously. To the faults of our <lo.ne.stic policy was
-added now, in the eyes of <h, worh |. a plutocratic and
+enormously. To the faults of our domestic policy was
+added now, in the eyes of a plutocratic and
 financial insufficiency.
 
 From the broils of financial chad and in the maze of
-debates which ensued, Fascism kc,,l, itself aloof It de-
+debates which ensued, Fascism, itself aloof. It de-
 layed not to consider the part, but chose to determine
 caref ully a SOUnd, wise and foreseeing monetary policy
 for the nation.
-  ^ r
+
 
 For the first time I found myself aquarely challenged
 by the gigantic problem of public finance.
@@ -5599,10 +5228,10 @@ stronger institutions.
 
 There were struggles between opposing groups of
 capitalists. These created a cynical attitude among the
-modern middle class ; at the same time it was shown that
+modern middle class; at the same time it was shown that
 our capitalistic industrial group resented the vice of
 having no comprehensive plan. We needed a strong cap-
-italistic tradition, rigorous experience ; we found that in
+italistic tradition, rigorous experience; we found that in
 the whir of events it was difficult to perceive who was
 right and who would probably be able to save himself,
 when the pressure came and a test of strength was made.
@@ -5614,8 +5243,6 @@ dark prophecies as to our economic life. The Italian
 147
 
 
-
-148 My Autobiography
 
 government itself did not know how to behave in its
 money affairs, and, not finding anything better, did as
@@ -5630,30 +5257,25 @@ pitality of the French. I went there to serve my news-
 paper, the Popolo (Iltalia. What an excellent occasion
 it was to distract public opinion from our internal crisis,
 at least temporarily! We could examine thoroughly, in-
-stead of domestic thorns, problems of international char-
-acter!
+stead of domestic thorns, problems of international char-acter!
 
 At Cannes I wanted to interview the great world
 politicians— responsible men. I would have liked, from
 a full survey, to have informed Italian public opinion as
 to the various ingredients which we could lind in the
-pudding of our international situation. The Cannes con-
-ference was the overture to the opera of the conference
+pudding of our international situation. The Cannes con-ference was the overture to the opera of the conference
 m Genoa. Italy should have selected her own policy. It
-should have been one which would not betray vital in-
-terests arising from our most urgent historic and po-
+should have been one which would not betray vital in-terests arising from our most urgent historic and po-
 litical necessities.
 
 At any rate because of these considerations, I decided
-to go to Cannes. I collected ten thousand lire for neces-
-sary expenses. My brother, Arnaldo, went to convert
+to go to Cannes. I collected ten thousand lire for neces-sary expenses. My brother, Arnaldo, went to convert
 them at a money changer and brought me the equivalent
 in French money, which amounted to no more than five
 thousand, two hundred francs. Though I had followed
 
 
 
-Toward Conquest of Power 149
 the course of foreign exchange this little personal ex-
 perience made a deep impression. It made me realize an
 angular fact; the Italian currency had lost nearly half
@@ -5689,8 +5311,6 @@ a vote of the Chamber of Deputies. And I, in an article
 
 
 
-150 My Autobiography
-
 of January 14th, 1922, entitled After Cannes, havW
 given due weight to the numerous sharp interrogation
 marks of the international situation, concluded •
@@ -5698,33 +5318,24 @@ marks of the international situation, concluded •
 The unsolved problems, questionings and challenges
 could be ranged in line to infinity. J I, is urgent, instead,
 to take note of the most important lesson of the French
-ens*. It is a bitter verification. I,, will bring the masses
-of the populations who suffer m„„.ll y and economically
-to say m their hearts, These gmllenicn are either with-
-out conscience, or they ft* powerieil and flabby. They
-
-* h T;7 isl1 to »** I— «r tbey are not able
-to make it. A Uurope in such U-rriWo spiritual and eco-
-nomic condiHons as those of „,, |)I ,, ( , lt must
-on reason or s,nk. The Europe of lo-.norrow, broken in
-dWm Z S ° f ™V™™^ I-plcs, may become a col-
-ony: two other continents are already high up on the
-horizon of history!  * p 1 tne
+ens*. It is a bitter verification. It will bring the masses
+of the populations who suffer economically
+to say their hearts, These gmllenicn are either with-
+out conscience, or they are powerless and flabby. They
+are not able
+to make it. A Europe in such spiritual and eco-
+nomic condiHons as those of two other continents are already high up on the
+horizon of history!
 
 To the plight disclosed by the wide picture of the
 
-fZ7TJ 0 T n UnMdiUg U> *y«, was to be
-added that due to our domestic tivrnHL. . i
 
-a little worse.  ****** gr0Wm ^
 
 I have always spoken as a journalist, as a politician
 - a deputy, of the existence of two Italics. One ap
 peared t 0 me freed from servitude. It was noble, proud
 loyal, devoutly dedicated by a bloody sacrifice of war
-
-pell O T T ^ ^ mme of the iWian
-P op e. On the other side, however, I saw another Italy,
+ I saw another Italy,
 
 dull to any consciousness of nobility and power, indif-
 
@@ -5732,7 +5343,6 @@ terent to origin and traditions, serving obscure isms
 
 
 
-Toward Conquest of Power 151
 
 a slave to apathetic tendencies, cold, egotistic, incapa-
 ble of gallantry, dead to sacrifice.
@@ -5759,7 +5369,7 @@ such sacrifices cemented indissolubly the unity of Fas-
 cism.
 
 A formidable cement! I wrote in my paper. It
-binds the Fascisti legions ; a sacred and intangible bond
+binds the Fascisti legions; a sacred and intangible bond
 keeps close the faithful of the Littorio. It is the sacred
 bond of our dead. They are hundreds. Youths. Mature
 men. Not a party in Italy, nor any movement in recent
@@ -5770,8 +5380,6 @@ of so many young souls.
 If Fascism were not a faith, how did it or could it
 
 
-
-152 My Autobiography
 
 give stoicism and courage to its legions? Only a faith
 which has reached the heights, only a faith can suggest
@@ -5810,7 +5418,6 @@ No demand of the German-speaking people on the
 
 
 
-Toward Conquest of Power 153
 
 frontier was considered unjustified. Little by little, fol-
 lowing that policy of cowardice and servitude, we re-
@@ -5847,8 +5454,6 @@ ernism.
 
 
 
-154 My Autobiography
-
 Benedict XV did not leave in our souls a sympathetic
 memory. We could not, if we tried, forget that in 1917,
 while people were struggling, when we had already seen
@@ -5884,7 +5489,6 @@ is made. There is no comment to be made on that
 
 
 
-Toward Conquest of Power 155
 
 simple statement. But to succeed to the throne of St.
 Peter, to become the worthy substitute for the Prince
@@ -5897,7 +5501,7 @@ could be reasons for apprehension, as well as deep in-
 terest in the results of the Conclave. The eyes of all the
 Catholic world were turned toward Rome. Great vexa-
 tions stirred all the European chanceries; secret influ-
-ences were penetrating deep places ; they were trying to
+ences were penetrating deep places; they were trying to
 suppress and overpower each other.
 
 Spectators and diplomats of every country in the
@@ -5922,8 +5526,6 @@ I had already on various occasions disclosed to the
 Fascisti, whom I considered and consider always the
 
 
-
-156 My Autobiography
 
 aristocracy of Italy, that our religious ideal had in itself
 moral attributes of first importance. I had affirmed the
@@ -5961,7 +5563,6 @@ represented no real and profound ideal. The secret so-
 
 
 
-Toward Conquest of Power 157
 
 ciety from a practical point of view rested on an associa-
 tion of mutual adulation, of reciprocal aid, of pernicious
@@ -5998,8 +5599,6 @@ For my direct, methodical and consistent course of
 policy the hate of the Masonic sect persecutes me even
 
 
-
-158 My Autobiography
 
 now. Masonry of that type has been beaten in Italy,
 but it operates and conspires behind mask of the inter-
@@ -6042,7 +5641,6 @@ Nicola, but nobody wanted to accept the responsibility
 
 
 
-Toward Conquest of Power 159
 
 of forming a ministry under the prevailing conditions.
 They were obliged to go back to Bonomi, who fell for
@@ -6080,8 +5678,6 @@ ways came to the surface. It was such a stagnation as
 
 
 
-160 My Autobiography
-
 comes finally to weak democracies. It was tearing to
 pieces political logic, common sense, and, unfortunately,
 also Italy herself.
@@ -6118,7 +5714,6 @@ It was in just such ways that the old liberal Italy
 
 
 
-Toward Conquest of Power 161
 
 with its petty dealing with problems, its little parlia-
 mentary pea-shooting, its unworthy plots in corridor
@@ -6129,11 +5724,11 @@ its struggling co-operatives, its inadequate rural banks,
 its mean and superficial measures of economy, its in-
 capable and improvident charity! Italy, in its position
 of humble servant, with napkin on arm to wipe other
-mouths at international conferences ! Italy, prolific and
-powerful ! Italy, like a mother able to supply, even for
+mouths at international conferences! Italy, prolific and
+powerful! Italy, like a mother able to supply, even for
 foreign ingratitude, laborious sons to make fruitful
 other soils, other climates, other cities and other peoples !
-Such was her leadership ; such was her plight !
+Such was her leadership; such was her plight !
 
 Facta was the man who fully represented that old
 world. Facta was the first to be surprised that he had
@@ -6155,8 +5750,6 @@ In these days there were some attempts at Fascist
 secession and schism. I removed them with a few strokes
 
 
-
-162 My Autobiography
 
 of the pen and a few measures taken within. I was
 troubled less by mistaken disaffections than by a single
@@ -6195,7 +5788,6 @@ there were twenty-four wounded.
 
 
 
-Toward Conquest of Power 163
 
 As if that was not enough the Alliance of Labor, a
 hybrid coalition of all the anti-Fascist groups, pro-
@@ -6235,8 +5827,6 @@ had demonstrated his incapacity in every way. I made
 
 
 
-164 My Autobiography
-
 a speech in parliament on July 19th, 1922, in which I
 specifically and flatly withdrew from the ministry the
 votes of the Fascist group. After having demonstrated
@@ -6274,7 +5864,6 @@ soon say if it wants to become a legitimate party, for
 
 
 
-Toward Conquest of Power 165
 
 that means a government party, or if it will instead be
 a party of insurrection. In the latter case it will no
@@ -6313,8 +5902,6 @@ insurrection of national dignity.
 
 
 
-166 My Autobiography
-
 While the conferences to find ways out of the crisis
 went on slowly, at the moment of inability to constitute
 a government there came about in Italy an almost in-
@@ -6351,7 +5938,6 @@ versive organizations. The Fascisti of Milan assaulted
 
 
 
-Toward Conquest of Power 167
 
 the Avanti, which was considered the lair of our op-
 ponents. They burned the offices. They occupied the
@@ -6389,8 +5975,6 @@ its circulation to become the speaking trumpet for the
 spirit of moribund, middle class mediocrity — had given,
 
 
-
-168 My Autobiography
 
 in the past, a sort of halo to Filippo Turati, the Socialist
 leader. Now it felt that it was necessary to give a bit of
@@ -6430,7 +6014,6 @@ special fitness and who was saturated by real Fascist
 
 
 
-Toward Conquest of Power 169
 
 faith. I made a scheme of military and political organ-
 ization on the model of the old Roman legions. The
@@ -6466,8 +6049,6 @@ While I was penning some editorials against repre-
 sentatives of the sceptics, I wrote: Fascism is to-day in
 
 
-
-170 My Autobiography
 
 the first stage of its life: the one of Christ. Dont be in a
 
@@ -6507,7 +6088,6 @@ I wanted to inform myself about the state of mind
 
 
 
-Toward Conquest of Power 171
 
 of the Fascisti, about their efficiency and their determi-
 nation. Accordingly I went to make four important
@@ -6536,7 +6116,7 @@ conqueror and a saviour. This flattered me, but be sure
 that it did not make me proud. I felt stronger, and yet
 realized the more that I faced mountains of responsi-
 bility. In those four cities, so different and so far one
-from the other, I saw the same light ! I had with me the
+from the other, I saw the same light! I had with me the
 honest, the good, the pure, the sincere soul of the Italian
 people !
 
@@ -6544,8 +6124,6 @@ I assembled the Central Committee of the Fasci Ital-
 iani di Combattimento — the Bundles of Fight — and we
 
 
-
-172 My Autobiography
 
 came to an accord on the outlines of the movement,
 which was to lead the black shirts triumphantly along
@@ -6558,8 +6136,6 @@ a new Italy.
 
 
 
-CHAPTER IX
-
 
 
 THUS WE TOOK ROME
@@ -6567,8 +6143,7 @@ ND now we were on the eve of the historic march
 
 
 
-conditions in the provinces, having listened to the re-
-ports of the various chiefs of the black shirts, having
+conditions in the provinces, having listened to the re-ports of the various chiefs of the black shirts, having
 selected the plans of action and having determined in a
 general way upon the most favorable moment, I called
 together in Florence the chiefs of the Fascist movement
@@ -6580,11 +6155,8 @@ anniversary of the Victory. I rejected that proposal,
 for it would have spoiled a day of commemoration by
 introducing the element of revolutionary activity.
 
-It was necessary to give our movement the full ad-
-vantage of opportunity and to make it spark and de-
-tonate. It was necessary to weigh, besides the military
-aspects, the political effects and values. We had to con-
-sider, finally, the painful possibility of a violent sup-
+It was necessary to give our movement the full ad-vantage of opportunity and to make it spark and de-tonate. It was necessary to weigh, besides the military
+aspects, the political effects and values. We had to con-sider, finally, the painful possibility of a violent sup-
 pression, or a failure spreading from some slip to all
 of our plans. We were obliged to determine beforehand
 
@@ -6597,11 +6169,8 @@ Having completed my survey and estimate of
 
 
 
-173
 
 
-
-174 My Autobiography
 
 all the hows and whens, the details of the means, with
 what men and with what aims the Fascist assault could
@@ -6640,7 +6209,6 @@ in the persons of Generals De Bono, De Vecchi, Italo
 
 
 
-Thus We Took Rome 1.75
 
 
 
@@ -6679,8 +6247,6 @@ sham discussion was Michele Bianchi, one of the qua-
 
 
 
-176 My Autobiography
-
 drumvirate for the march on Rome. At that time he
 had already revealed a notable political mind. De Bono
 and Balbo, who had great authority over the squadrons
@@ -6710,7 +6276,7 @@ rumvirate. Here is the text of the memorable document:
 
 Fascisti! Italians!
 
-The time for determined battle has come ! Four years ago
+The time for determined battle has come! Four years ago
 at this season the national army loosed the final offensive
 which brought it to Victory. To-day the army of the black
 shirts again takes possession of that Victory, which has
@@ -6718,7 +6284,6 @@ been mutilated, and, going directly to Rome, brings Victory
 
 
 
-Thus We Took Rome 177
 
 
 
@@ -6756,7 +6321,7 @@ Fascisti of all Italy!
 Stretch forth like Romans your spirits and your sinews !
 We must win. We will.
 
-Long live Italy ! Long live Fascism !
+Long live Italy! Long live Fascism !
 
 The Quadrumvirate.
 
@@ -6766,8 +6331,6 @@ assaults on munition factories and upon military bar-
 racks. I had composed my proclamation in a very short
 
 
-
-178 My Autobiography
 
 and resounding form; it had impressed the whole of the
 Italian people. Our life was suddenly brought into an
@@ -6806,7 +6369,6 @@ racks and on the post offices were cause for fusillades
 
 
 
-Thus We Took Rome 179
 
 of shots, which gave to the city a sinister echo of civil
 war.
@@ -6845,8 +6407,6 @@ sible civil war. They proposed to me a sort of armistice
 
 
 
-180 My Autobiography
-
 and a truce with the central government. Perhaps a
 ministerial crisis might save, they said, the situation and
 the country.
@@ -6883,7 +6443,6 @@ who had been with us since the first moments of the
 
 
 
-Thus We Took Rome 181
 
 
 
@@ -6938,8 +6497,6 @@ my associates.
 
 
 
-182 My Autobiography
-
 The logical clearness, the stout, rigorous, coherent
 reasons I had given impressed those who had come to
 offer conciliation, compromise, concessions.
@@ -6981,7 +6538,6 @@ Meanwhile the citizens must maintain their calm and
 
 
 
-Thus We Took Rome 183
 
 
 
@@ -7025,8 +6581,6 @@ The National right asserted in fact that it was the
 
 
 
-184 My Autobiography
-
 keystone of the situation. Salandra, who was the most
 typical representative of the group, was disposed to sac-
 rifice himself and to take upon his back the cross of
@@ -7062,7 +6616,6 @@ charge me with forming a ministry. I thanked General
 
 
 
-Thus We Took Rome 185
 
 Cittadini for his kindness, but I asked him to give me
 the same communication by telegram. One knows that
@@ -7098,13 +6651,11 @@ lowing the compact columns of the Fascisti, restricting
 the battle to the knightly practices of Fascism.
 
 A period of greater responsibilities was about to be-
-gin for me ; I must not fail in my duty or in my aims.
+gin for me; I must not fail in my duty or in my aims.
 I gathered all my strength to my aid, I invoked the
 memory of the dead, I asked the assistance of God, I
 
 
-
-186 My Autobiography
 
 called upon the faithful living to assist me in the great
 task that confronted me.
@@ -7119,7 +6670,7 @@ trusted to Arnaldo Mussolini.
 
 I thank and salute with brotherly love all the editors,
 collaborators, correspondents, employees, workers, all those
-who have assiduously and faithfully iul>ored with me for the
+who have assiduously and faithfully labored with me for the
 life of this paper and for love of our Country
 
 Rome, October Mlh, 19ftft,
@@ -7148,15 +6699,14 @@ ering of the Fascisti and of the masses who wanted to
 
 
 
-Thus We Took Rome 187
 
 bring me, even through the pouring rain, their cheers
 and their good-will.
 
 Leaving Milan was painful. That city had given me
-a home for ten years ; to me it had been prodigal in the
+a home for ten years; to me it had been prodigal in the
 satisfaction it had afforded; it had supported me in
-every stress ; it had baptized the most wonderful squads
+every stress; it had baptized the most wonderful squads
 of action of Fascism; it had been the scene of historical
 political struggles. Now I was leaving it, called by des-
 tiny and by a greater task. All Milan knew of my go-
@@ -7186,8 +6736,6 @@ inspired to challenge, if need be, not only the base Ital-
 ian ruling class, but enemies of any sort and race.
 
 
-
-188 My Autobiography
 
 In Rome an indescribable welcome awaited me. I did
 not want any delay. Even before making contacts with
@@ -7231,7 +6779,6 @@ King Victor Emmanuel III and Mussolini.
 
 
 
-Thus We Took Rome 189
 
 be inspired by absolute and conscientious discipline; it
 must devote itself, with the deepest will, only to the de-
@@ -7268,8 +6815,6 @@ but in very fact if I had wished — those enemies who had
 slandered Fascism and those whom I hated for having
 
 
-
-190 My Autobiography
 
 betrayed Italy in peace as they had betrayed her in
 war.
@@ -7345,8 +6890,6 @@ not understand that there is no revolution that can
 
 
 
-192 My Autobiography
-
 change the nature of men. Because of their Utopian
 illusions the ascetics are never contented; they waste
 their time and other mens energies in sophistry and
@@ -7383,7 +6926,6 @@ deserved respect for that and more.
 
 
 
-Thus We Took Rome 193
 
 
 
@@ -7423,8 +6965,6 @@ popularism or with socialism.
 
 
 
-194 My Autobiography
-
 I kept for myself, with the Presidency of the Coun-
 cil, the office of the Interior and assumed ad interim
 that of Foreign Affairs. I gave to Armando Diaz the
@@ -7440,7 +6980,7 @@ Benito Mussolini, Deputy, Presidency of the Council,
 Domestic and interim? of foreign Affairs (Fas-
 cist).
 
-Armando Diaz, Genera] of the Army, War.
+Armando Diaz, General of the Army, War.
 Paolo Thaon de Revel, Admiral, Senator, Navy.
 Luigi Federzoni, Deputy, Colonies (Nationalist).
 Aldo Oviglio, Deputy, Justice (Faseist).
@@ -7471,7 +7011,6 @@ Domestic: Aldo Finzi, Deputy (Fascist).
 
 
 
-Thus We Took Rome 195
 
 Foreign: Ernesto Vassallo, Deputy (Popolare).
 War: Carlo Bonardi, Deputy (Social Democrat).
@@ -7524,8 +7063,6 @@ because they are attached to the cause of the Nation.
 
 
 
-196 My Autobiography
-
 The Italian Fascism is too intelligent to desire a greater
 victory.
 Fascisti!
@@ -7569,7 +7106,6 @@ of the Country. I demand that all authorities, from the
 
 
 
-Thus We Took Rome 197
 
 
 
@@ -7607,13 +7143,11 @@ aided the Fascist movement with their active or pas-
 sive solidarity.
 
 I did not present one of the usual programmes that
-the past ministries used to present ; for these solved the
+the past ministries used to present; for these solved the
 problems of the country only on paper. I asserted my
 will to act and to act without delaying for useless ora-
 
 
-
-198 My Autobiography
 
 
 
@@ -7631,7 +7165,7 @@ Gentlemen :
 
 From further communications you will know the Fascist
 programme in its details. I do not want, so long as I can
-avoid it, to rule against the Chamber ; but the Chamber must
+avoid it, to rule against the Chamber; but the Chamber must
 feel its own position. That position opens the possibility
 that it may be dissolved in two days or in two years. We ask
 full powers because we want to assume full responsibility.
@@ -7659,7 +7193,6 @@ gether from north to south, from the continent to the gen-
 
 
 
-Thus We Took Rome 199
 
 
 
@@ -7691,11 +7224,9 @@ there would rise, with increasing truth and with increas-
 ing expansion of Fascist activity, the dawn of new his-
 tory for Italy.
 
-And perhaps dawn on a new path of civilization. . . .
+And perhaps dawn on a new path of civilization.
 
 
-
-CHAPTER X
 
 
 
@@ -7727,11 +7258,10 @@ Peano of the Liberal party had summarized with an
 astounding figure: six billions of deficit! Individually
 the people fed on expedients. Progressive inflation and
 
-200
 
 
 
-Five Years of Government 201
+
 the printing presses gave to everybody the old illusion
 of prosperity. It created an unstable delusion of well-
 being; it excited a fictitious game of interests. All this
@@ -7768,8 +7298,6 @@ strategy.
 A bureaucracy already suffering from elephantiasis
 
 
-
-202 My Autobiography
 
 increased its distention, generating that spirit of trouble,
 those characters of instability, of intolerance, of slight
@@ -7808,7 +7336,6 @@ mosphere of the parliamentary corridors at Montecito-
 
 
 
-Five Years of Government 203
 
 rio. The Italian press was, for the greater part, tied to
 old groups and to old political customers.
@@ -7843,11 +7370,9 @@ only a problem of strength to last, to endure, to stand
 erect in any wind, but also, above all, a problem of will.
 
 I abandoned everything that kept me tied to the for-
-tunes of my newspapers ; I parted from everything that
+tunes of my newspapers; I parted from everything that
 
 
-
-204 My Autobiography
 
 could have the slightest personal character. I devoted
 myself wholly, completely, exclusively, to the work of
@@ -7886,7 +7411,6 @@ meditation.
 
 
 
-Five Years of Government 205
 
 No other amusement interests me. I do not drink, I
 do not smoke, and I am not interested in cards or
@@ -7901,7 +7425,7 @@ has no lure for me. The only things at which I aim are
 those which identify themselves with the greatest ob-
 jects of life and civilization, with the highest interests,
 and the real and deep aspirations of my country. I am
-sure of my strength and my faith ; for that reason I do
+sure of my strength and my faith; for that reason I do
 not indulge in any concession or any compromise. I
 leave, without a look over my shoulder, my foes and
 those who cannot overtake me. I leave them with their
@@ -7924,9 +7448,7 @@ duties of any new Italy. I faced numberless enemies. I
 
 
 
-206 My Autobiography
-
-created new ones — I had few illusions about that ! The
+created new ones — I had few illusions about that! The
 struggle, in my opinion, had to have a final character:
 it had to be fought as a whole over the most diverse
 fields of action.
@@ -7963,7 +7485,6 @@ my judgment, but that of the world.
 
 
 
-Five Years of Government 207
 
 
 
@@ -8004,8 +7525,6 @@ authority, but also a great reserve strength.
 
 
 
-208 My Autobiography
-
 The organization of the Grand Council, a body ex-
 quisitely political, was one of my major aims after my
 coming to power. I faced the necessity of creating a
@@ -8040,7 +7559,6 @@ day I want framed in the legislative institutions of the
 
 
 
-Five Years of Government 209
 
 regime, has rendered in its first five years a magnifi-
 cent, unparallelled service.
@@ -8077,8 +7595,6 @@ cil I proclaimed the impossibility for Fascisti of mem-
 
 
 
-210 My Autobiography
-
 bership at the same time in Masonry. As a leader of the
 ranks of socialism I had already pursued the same anti-
 Masonic policy. We must not forget that this shady
@@ -8113,7 +7629,6 @@ chivalry and political loyalty. This new and deep unity
 
 
 
-Five Years of Government 211
 
 permitted us to enjoy the prospect of more favorable
 auspices for a new future, one worthy of that great Italy
@@ -8151,8 +7666,6 @@ still many dissenters. Many people fed on the illusory
 
 
 
-212 My Autobiography
-
 hope that they would be able to influence and bend the
 methodical and straight courses laid out by Fascism.
 For this purpose, I was approached by those who were
@@ -8188,10 +7701,9 @@ decided not to sacrifice it to compromises with an old
 
 
 
-Five Years of Government 213
 
 world which was destined to disappear. The population
-felt that it had recovered a real liberty ; they had experi-
+felt that it had recovered a real liberty; they had experi-
 enced liberation from the continuous blackmail of parties
 which deluded the masses. They blessed my political
 work. And I was happy.
@@ -8216,7 +7728,7 @@ Fascism from internal crises, often provoked by intrigue
 and trickery. I succeeded in this by being always inex-
 orably opposed to those who thought they could create
 disturbances and frictions in the party itself. Fascism
-is a unit ; it cannot have varying tendencies and trends,
+is a unit; it cannot have varying tendencies and trends,
 as it cannot have two leaders on any one level of organ-
 ization. There is a hierarchy; the foundation is the Black
 Shirts and on the summit is the Chief, who is only one.
@@ -8225,8 +7737,6 @@ That is one of the first sources of my strength; all
 the dissolutions of our political parties were always born
 
 
-
-214 My Autobiography
 
 not from ideal motives but from personal ambitions,
 from false preconceptions or from corruption, or from
@@ -8263,7 +7773,6 @@ Council, such as Orlando, and of the Chamber, such as
 
 
 
-Five Years of Government 215
 
 De Nicola; but the main body of the list was made up of
 new elements. It was, in fact, composed of two hundred
@@ -8301,8 +7810,6 @@ try be saved.
 
 
 
-216 My Autobiography
-
 On May 24th, with unusual solemnity, came the open-
 ing of the Twenty-seventh Legislature. His Majesty
 the King made a very impressive speech. The hall had
@@ -8338,7 +7845,6 @@ the war.
 
 
 
-Five Years of Government 217
 
 After some days the usual parliamentary discussions
 began. The seating of new deputies roused violent
@@ -8366,16 +7872,14 @@ able and intangible body of the country.
 I felt the necessity of making in parliament a high
 appeal for calm, for a sense of balance and justice. I
 was animated by a deep and sincere desire for peace.
-But the success of my words was apparent only ; in the
+But the success of my words was apparent only; in the
 ardors of the parliamentary political struggle scenes un-
 worthy of any assembly took place.
 
 The Socialists had been hit in their most sensitive
-spots ; they had been slammed against reality. They were
+spots; they had been slammed against reality. They were
 
 
-
-218 My Autobiography
 
 outnumbered, amazed by the rush of Italian youth, dis-
 mayed by the new direction events were taking. All the
@@ -8412,7 +7916,6 @@ from being able seriously to imperil the assembly and
 
 
 
-Five Years of Government 219
 
 to silence such a party as the Fascist. Matteotti was not
 a leader. In that same Socialist party there were indi-
@@ -8448,8 +7951,6 @@ taken — so severe indeed that in some cases they proved
 to be excessive.
 
 
-
-220 My Autobiography
 
 The suspects were arrested at once. Among the re-
 sponsible elements, those who had had relations with the
@@ -8487,7 +7988,6 @@ guilty and those responsible, we here repeat that this
 
 
 
-Five Years of Government 221
 
 will be done calmly and inexorably. But if from this
 very sad happening some one seeks to draw an argu-
@@ -8523,8 +8023,6 @@ ravens on the corpse. The arrest of the guilty was not
 enough. The discovery of the eorpse and the sworn state-
 
 
-
-222 My Autobiography
 
 ment of surgeons that death had not been due to a crime
 but had been produced by trauma was not enough.
@@ -8562,7 +8060,6 @@ to listen to all the dirty rogues, to collect the most men-
 
 
 
-Five Years of Government 223
 
 dacious pamphlets, trying somehow, sometime, some-
 where, to hit at me and at Fascism.
@@ -8600,8 +8097,6 @@ It was then clear to what extent anti-Fascism was still
 
 
 
-224 My Autobiography
-
 abroad in certain international zones where Democracy,
 Socialism and Liberalism had consolidated their weight
 of patronage, blackmail and parasitism.
@@ -8638,7 +8133,6 @@ former chief of the press office, tried a rascally trick.
 
 
 
-Five Years of Government 225
 
 This man, cast out from Fascism because he was im-
 plicated in the Matteotti affair, prepared a memorial
@@ -8648,7 +8142,7 @@ Everything that had happened or was happening in
 Italy he endeavored to put on my doorstep. This me-
 morial, written by such a man, pretended to present a
 moral indictment of me. But in that field I cannot be
-attacked ; every attempt of this sort is empty. I was in-
+attacked; every attempt of this sort is empty. I was in-
 formed beforehand of the plot that Rossi was going to
 attempt; I knew the contents of his memorial and the
 day on which it was to be printed in the papers of the
@@ -8671,11 +8165,9 @@ ism and with the worst elements of the Socialists !
 I held the Fascist party firmly in my hand during
 this period. I curbed the impulses of some Fascists who
 wanted violent reprisals with a clear order: Hands in
-the pockets ! I am the only one that must have his hands
+the pockets! I am the only one that must have his hands
 
 
-
-226 My Autobiography
 
 free. In Florence and Bologna, however, there oc-
 curred episodes of extreme violence. I understood then
@@ -8714,7 +8206,6 @@ Rome was already full of the exiled from the provinces
 
 
 
-Five Years of Government 227
 
 and of those who tremblingly awaited the conclusion
 of the political struggle, I made in parliament this
@@ -8759,8 +8250,6 @@ But an Italian Cheka never has had a shadow of existence.
 Nobody has ever denied that I am possessed of these three
 
 
-
-228 My Autobiography
 
 
 
@@ -8811,7 +8300,6 @@ felt that I had spoken deep, living words, and that I had
 
 
 
-Five Years of Government 229
 
 
 
@@ -8861,8 +8349,6 @@ be the reprisal of a Government !
 
 
 
-230 My Autobiography
-
 
 
 It must be inflicted with restrained, better let us say very
@@ -8902,7 +8388,7 @@ erals for all the zone commands is conducted as it is.
 Finally a question which raised our passions was pre-
 sented — the question of accepting the resignation of Giunta.
 The Chamber was excited. I understood the sense of that
-revolt ; however, after forty-eight hours I used my prestige
+revolt; however, after forty-eight hours I used my prestige
 and my influence. To a riotous and reluctant assembly I
 said : Accept the resignation, and the resignation was ac-
 cepted.
@@ -8912,7 +8398,6 @@ normal conditions — the plan for electoral reform. How was
 
 
 
-Five Years of Government 231
 
 
 
@@ -8953,7 +8438,7 @@ if they had not been for the interests of the Nation. A peo-
 ple does not respect a Government which allows itself to be
 scorned. The people want to see their own dignity reflected
 in a Government, and the people, even before I said it, said,
-Enough ! The measure is filled.
+Enough! The measure is filled.
 
 And why was it filled? Because the revolt of the Aventino
 has a republican background.
@@ -8961,8 +8446,6 @@ has a republican background.
 This sedition of the Aventino has had consequences, for
 
 
-
-232 My Autobiography
 
 
 
@@ -9018,7 +8501,6 @@ side says: Enough! When two elements are struggling the
 
 
 
-Five Years of Government 233
 
 
 
@@ -9027,7 +8509,7 @@ other solution in history, and never will be.
 
 Now I dare to say that the problem will be solved. Fas-
 cism, the Government, the Party, is at its highest efficiency.
-Gentlemen, you have deceived yourselves ! You thought that
+Gentlemen, you have deceived yourselves! You thought that
 Fascism was ended because I was restraining it, that the
 Party was dead because I was holding it back. If I should
 use a hundredth part of the energy that I used to compress
@@ -9039,7 +8521,7 @@ is strong to break fully and finally this revolt of the Aven-
 tino.
 
 Italy, Gentlemen, wants peace, wants quiet, wants work,
-wants calm ; we will give it with love, if that be possible, or
+wants calm; we will give it with love, if that be possible, or
 with strength, if that be necessary.
 
 You can be sure that in the forty-eight hours following
@@ -9063,8 +8545,6 @@ It was on that occasion that the Liberal ministers
 Sarrocchi and Casati, and also the minister Oviglio, a
 
 
-
-234 My Autobiography
 
 tepid Fascist, asked to resign from the ministry. I re-
 placed them with three Fascist ministers. We were com-
@@ -9104,7 +8584,6 @@ With this aim I brought about the nomination of a
 
 
 
-Five Years of Government 235
 
 commission of eighteen experts on statecraft. I charged
 them with the preparation of proposals of reforms to be
@@ -9143,8 +8622,6 @@ toral patronages, which were no longer suited to our
 
 
 
-236 My Autobiography
-
 time and our temper. The Governship of Rome was in-
 stituted and there began, because I had made up my
 mind to it, an inexorable fight against the Mafia in
@@ -9180,7 +8657,6 @@ plaudits and approbation.
 
 
 
-Five Years of Government 237
 The wise treatment of very clever doctors, such as
 Professor Bastianelli and Professor Marchiafava,
 healed me completely. Those miserahle persons who had
@@ -9216,8 +8692,6 @@ crime. He was discovered. He had been followed for a
 long time. A few days before, General Capello had
 
 
-
-238 My Autobiography
 
 generously given him money and advice. Masonry had
 made of him its ensign. But by simultaneous action,
@@ -9256,7 +8730,6 @@ bombs. Lucetti recognized my car, while I was going to
 
 
 
-Five Years of Government 239
 
 the Palazzo Chigi, and as soon as he saw it he hurled at
 me the infernal machine, which hit «*in angle of the car
@@ -9295,8 +8768,6 @@ cults had only one aim: it was to hit the chief of Fas-
 
 
 
-240 My Autobiography
-
 cism, so that all Fascism should be hit. The entire move-
 ment that dominated Italy they believed turned on one
 pivot, on a name, on a lone man. All the adversaries,
@@ -9333,7 +8804,6 @@ class of the Italian people. Few are those who are still
 
 
 
-Five Years of Government 241
 
 confined, and few are those who intend to disobey. As
 Minister of the Interior, I distributed a circular on J an-
@@ -9360,13 +8830,6 @@ ing peoples.
 
 
 
-CHAPTER XI
-
-
-
-NEW PATHS
-
-
 
 WHEN one wntches the building of new
 structures, when hammers and concrete mix-
@@ -9385,7 +8848,7 @@ profundity of night with its promise of another dawn
 eager for new labors, cannot be picked apart. I am lock-
 stitched into this fabric. It and myself are woven into
 one. Other men may find romance in the fluttering of
-the leaves on a bough ; as for me, whatever I might have
+the leaves on a bough; as for me, whatever I might have
 been, destiny and my own self have made me one whose
 eyes, ears, whose every sense, every thought, whose en-
 tire time, entire energy must be directed at the trunk of
@@ -9393,16 +8856,6 @@ the tree of public life.
 
 The poetry of my life has become the poetry of con-
 struction. The romance in my existence has become the
-
-242
-
-
-
-New Paths
-
-
-
-243
 
 
 
@@ -9444,8 +8897,6 @@ words are like armies enlisted to go away forever into
 
 
 
-244 My Autobiography
-
 the night, never to return from a campaign in which
 the enemies are compromise of principle, and cowardice,
 inaction, and idealism without realism.
@@ -9483,12 +8934,6 @@ erful and prolific nation, was only to re-establish our
 rightful position.
 
 
-
-New Paths
-
-
-
-245
 
 
 
@@ -9529,8 +8974,6 @@ trying to do.
 
 
 
-246 My Autobiography
-
 But truth usually comes along behind any simple,
 clear policy and overcomes the obliquity, the conven-
 tional mentality, the spirit of opportunism, and the lie-
@@ -9567,12 +9010,6 @@ openly my declaration on foreign and internal policy,
 
 
 
-New Paths
-
-
-
-247
-
 
 
 my political method and my concept of Fascist Italy.
@@ -9581,7 +9018,7 @@ I sent him a telegram, and this is what I said:
 I must interpret as a not quite amiable and rather an
 awkward gesture, your decision to hand in your resignation
 before having officially known my orders as to foreign pol-
-icy, which I will disclose in the Chamber of Parliament ; or-
+icy, which I will disclose in the Chamber of Parliament; or-
 ders that will not be merely a sum of sentiments and resent-
 ments, as you wrongly think. I bid you now formally to
 keep your place and not create difficulties for the Govern-
@@ -9613,8 +9050,6 @@ Having closed this breach in our diplomacy I dedi-
 cated all my energies to the solution of those political
 
 
-
-248 My Autobiography
 
 problems which would determine our future. I found
 facing me a situation already distorted and prejudiced
@@ -9652,7 +9087,6 @@ sacrifice and with the weight of its history, to enter into
 
 
 
-New Paths 249
 
 an equality of standing in discussions of an international
 nature side by side with England and France.
@@ -9693,8 +9127,6 @@ not hesitate to claim was one of the most efficacious for
 
 
 
-250 My Autobiography
-
 the solution of that problem. My plan aroused a cer-
 tain interest among the Allies, but some divergencies
 of a secondary character, and particularly the design of
@@ -9731,7 +9163,6 @@ by brick, stone by stone, a structure of peace founded
 
 
 
-New Paths 251
 
 on realities rather than on dreams and visionary plans.
 I have insisted upon being strong, but I have labored to
@@ -9769,8 +9200,6 @@ made myself the interpreter of the righteous wrath of
 
 
 
-252 My Autobiography
-
 Italians everywhere. I at once sent an ultimatum to
 Greece.
 
@@ -9788,7 +9217,7 @@ tions declared itself incompetent to judge and solve the
 incident. I continued the occupation of Corfu, declaring
 clearly that Italy would withdraw from the League if
 we could not obtain there a satisfactory attitude. This
-was not a mere matter of insult by words ; it concerned
+was not a mere matter of insult by words; it concerned
 the lives of Italian officers and soldiers. It was impos-
 sible to believe that I could allow this tragic page to be
 turned over with nothing more than some bureaucratic
@@ -9805,19 +9234,7 @@ pected, a verdict favorable to the Italian position.
 
 Greece gave me all the satisfaction that I had asked.
 The indemnity was paid. I offered ten millions of this
-indemnity to the Greek refugees. Thereafter, having ob-
-
-
-
-New Paths
-
-
-
-253
-
-
-
-tained full satisfaction, I recalled the squadron from
+indemnity to the Greek refugees. Thereafter, having ob-tained full satisfaction, I recalled the squadron from
 Corfu. The book was closed.
 
 But that month was indeed one of tragic happenings.
@@ -9854,15 +9271,13 @@ pact of London. No better settlement was possible than
 
 
 
-254 My Autobiography
-
 the one that I, with the good-will and the eagerness that
 I and Pasic and Nincic put into the negotiations, was
 able to draw up.
 
 Though there is yet no Jugoslavian ratification of the
 Nettuno Conventions, our borders are well guarded and
-sure. J ugoslavia may show its good will ; in any case we
+sure. J ugoslavia may show its good will; in any case we
 now can look calmly into the eyes of our troubled
 neighbor.
 
@@ -9892,12 +9307,6 @@ into our skies. A new cloud showed in the anti-Italian
 propaganda, laid down by Germans in the region of
 
 
-
-New Paths
-
-
-
-255
 
 
 
@@ -9937,8 +9346,6 @@ sideration from other nations. A loyal policy is the one
 
 
 
-256 My Autobiography
-
 which scores the greatest success. Ambiguities and
 vagueness are not in my temperament, and consequently
 they are strangers to any policy of mine. I feel that I
@@ -9974,11 +9381,10 @@ within the limits of Fascist dignity, though often they
 
 
 
-New Paths
 
 
 
-257
+
 
 
 
@@ -10020,8 +9426,6 @@ made reservations, after meditated discussions, and be-
 
 
 
-258 My Autobiography
-
 cause of my well-grounded beliefs regarding the dis-
 armament pacts, I noticed some absurdities in them.
 
@@ -10060,11 +9464,9 @@ tion of our economic situation. Even now, at this dis-
 
 
 
-New Paths
 
 
 
-259
 
 
 
@@ -10103,8 +9505,6 @@ zones of southern Italy. The same can be said about the
 
 
 
-260 My Autobiography
-
 high plain of Cirenaica. In this last region I have abol-
 ished a curious form of parliament created by the weak-
 ness of our former governments. Now the governors
@@ -10142,12 +9542,6 @@ the declaration of our opponents, desperately serious. I
 knew what a difficult inheritance I had received. It had
 
 
-
-New Paths
-
-
-
-261
 
 
 
@@ -10188,15 +9582,13 @@ Minister of Finance the Honorable De Stefani, a Fas-
 
 
 
-262 My Autobiography
-
 cist and a Doctor of Political Economy. He was able to
 curtail expenses, repress abuses, and create new sources
-of revenue and taxes ; in this way the budget was almost
+of revenue and taxes; in this way the budget was almost
 balanced within two years.
 
 I demobolized all the economic organization left over
-from war time ; I ehminated the useless bureaucracy of
+from war time; I ehminated the useless bureaucracy of
 the new provinces, still burdened by the debts and in-
 demnities of war. I settled all these with an issue of
 bonds, quickly subscribed.
@@ -10226,7 +9618,6 @@ moral, of inheritance transmittable in families. Because
 
 
 
-New Paths 263
 
 of this, though I had approved a tax reform of great
 importance, I restored many basic rights, such as the
@@ -10266,8 +9657,6 @@ state, now self-assured, with its finances reordered, was
 
 
 
-264 My Autobiography
-
 able, by the strength of its example, to give precise rules
 for the restoration of the finances of the self-governing
 units in communes and provinces. But even that was
@@ -10303,7 +9692,6 @@ turbance in all markets.
 
 
 
-New Paths 265
 
 I was following the course of these events. This sud-
 den opposition created by economic and not by political
@@ -10341,8 +9729,6 @@ Then came a gesture of spontaneous national patri-
 
 
 
-266 My Autobiography
-
 otism: our people by public subscription and without
 the help of the state paid the first installment due the
 government of the United States !
@@ -10379,7 +9765,6 @@ rich themselves on the depreciation of the lira, ready to
 
 
 
-New Paths 267
 
 accept willingly or even to quicken a general bank-
 ruptcy so as not to be obliged to settle their private
@@ -10417,10 +9802,8 @@ nation toward bankruptcy. The government could not
 
 
 
-268 My Autobiography-
-
 ignore them or their machinations. It was not only a
-matter touching the financial future of the country ; the
+matter touching the financial future of the country; the
 very flag of the Italian people was being jeopardized.
 In fact, in certain situations, even the soundness of a
 currency can assume the dignity of a flag and must be
@@ -10440,7 +9823,7 @@ of the international anti-Fascists spurred and aroused
 by our eternal foes, inside Italy and out. I understood
 that combined with this problem of honesty and recti-
 tude, there was also a problem of will. So I spoke. Here
-is the essence of my speech :
+is the essence of my speech:
 
 You must not be surprised if I make a political declara-
 tion of definite importance. It is not the first time that I
@@ -10451,16 +9834,11 @@ looking into its eyes and listening to the beating of its
 heart. I am speaking to you, but in this moment I am speak-
 ing to all Italians and my voice for obvious reasons will cer-
 tainly have an echo behind the Alps, and overseas. Let me
-tell you that I will defend the Italian lira to the last gasp ! I
+tell you that I will defend the Italian lira to the last gasp! I
 will never subject the marvellous Italian people, which for
 
 
 
-New Paths
-
-
-
-269
 
 
 
@@ -10478,7 +9856,7 @@ cost! When I go among a people that really works, I feel
 that in speaking this way I interpret sincerely its sentiment,
 its hopes, and its will.
 
-Citizens and Black Shirts ! I have already pronounced the
+Citizens and Black Shirts! I have already pronounced the
 most important part of my speech, destined to dissipate the
 fogs of uncertainty and to weaken the eventual attempts of
 troublesome defeatism.
@@ -10502,8 +9880,6 @@ culation on account of the state; liquidation of the
 autonomistic section of the Consorzio Valori.
 
 
-
-270 My Autobiography
 
 To all this was to be added a broad simplification of
 taxation with abolition of certain taxes and a new form
@@ -10539,14 +9915,6 @@ we had to start a policy of demobilization of our debts
 to be able to know our complex financial burden and to
 determine exactly the interest that had to be paid every
 year.
-
-
-
-New Paths
-
-
-
-271
 
 
 
@@ -10586,8 +9954,6 @@ the provinces and the communes, have balanced their
 
 
 
-272 My Autobiography
-
 
 
 budgets too. Exports and imports and their relationship
@@ -10600,8 +9966,6 @@ new corporative system.
 
 
 
-CHAPTER XII
-
 
 
 THE FASCIST STATE AND THE FUTURE
@@ -10610,10 +9974,7 @@ A MID the innovations and experiments of the new
 
 
 Fascist civilization, there is one which is of in-
-
-
-
-JL JL terest to the whole world ; it is the corporative
+terest to the whole world; it is the corporative
 organization of the state.
 
 Let me assert at once that before we reached this
@@ -10641,11 +10002,9 @@ ited resources that our surface soil and what was
 
 
 
-273
 
 
 
-274 My Autobiography
 
 beneath it might be put at the disposition of those who
 were interested in work and production.
@@ -10656,7 +10015,7 @@ proletarian. It was influenced by Socialists and anarch-
 ists, in an eternal and never-ending struggle with the
 directing class.
 
-Every year there was a general strike ; every year the
+Every year there was a general strike; every year the
 fertile Po Valley, for instance, was subjected to re-
 curring agitations which imperiled crops and all pro-
 duction. Opposed to that humane sense of harmony
@@ -10683,7 +10042,6 @@ meaning whatsoever!
 
 
 
-The Fascist State and the Future 275
 
 It was necessary to emerge from the base, clannish
 habit of class competition and to put aside hates and
@@ -10718,8 +10076,6 @@ kitten handled to death. In such a situation, mere pity
 and tolerance would have been criminal. Liberalism and
 
 
-
-276 My Autobiography
 
 Democracy, which had abdicated their duty at every
 turn, failed utterly to appraise and adjust the rights
@@ -10756,7 +10112,6 @@ no longer ignorant when it confronts facts and the in-
 
 
 
-The Fascist State and the Future 277
 
 
 
@@ -10794,8 +10149,6 @@ and woman so generous an opportunity that work will
 
 
 
-278 My Autobiography
-
 be not a painful necessity but a joy of life. But even
 such a complex programme cannot be said to equal the
 creation of the corporative system. Nor can the latter
@@ -10831,7 +10184,6 @@ it takes to itself not only the juridical conscience of the
 
 
 
-The Fascist State and the Future 279
 
 nation in the present, but also all that the nation rep-
 resents for the future. The government has shown that
@@ -10869,8 +10221,6 @@ sharing of products, the need of the judgment of
 
 
 
-280 My Autobiography
-
 tribunals in case of discord, and, finally, the need of
 protective legislation.
 
@@ -10906,7 +10256,6 @@ prets for them the duties they have to fulfil.
 
 
 
-The Fascist State and the Future 281
 
 In this new conception, which has found its logical
 expression in our representative forms, the citizen is val-
@@ -10938,12 +10287,10 @@ power. We do not waste time in brawls and strikes,
 which, while they vex the spirit, imperil our strength
 and the solidity of our economy. We regard strife as a
 luxury for the rich. We must conserve our strength.
-We have exalted work as productive strength ; therefore
+We have exalted work as productive strength; therefore
 we have the majority of these elements represented in
 
 
-
-282 My Autobiography
 
 the legislative body, and this body is a more worthy and
 a stronger helmsman for Italian life.
@@ -10980,7 +10327,6 @@ tion. From the beginning this has been ever in my mind.
 
 
 
-The Fascist State and the Future 283
 
 Perhaps my early experience as a school teacher in-
 creased an unvarying interest in youth and its develop-
@@ -11016,8 +10362,6 @@ fuse into the public schools those broad humanistic cur-
 rents in which our history and our traditions are so rich.
 
 
-
-284 My Autobiography
 
 Finally, it was indispensable to impose a new discipline
 in education — a discipline to which every one must sub-
@@ -11055,7 +10399,6 @@ spirit of vital rebirth which would appeal to the new
 
 
 
-The Fascist State and the Future 285
 
 Italy. Great ideas and great revolutions always create
 the right hour for the solution of many problems. The
@@ -11093,8 +10436,6 @@ analogous to those of England. This regime is advan-
 tageous for the Catholics, owners of many schools, but
 
 
-
-286 My Autobiography
 
 displeases the anti-clericals of the old style. It allows me
 a free development of scholastic initiative outside of the
@@ -11138,7 +10479,6 @@ the University.
 
 
 
-The Fascist State and the Future 287
 
 (d) Teachers Institute, a purely humanistic and
 philosophical school taking the place of the abolished
@@ -11149,7 +10489,7 @@ plete in itself.
 
 (f) Classical Lyceum, unchanged in its essential
 lines, but augmented by the humanistic character of the
-studies ; to it the task of preparing for most university
+studies; to it the task of preparing for most university
 branches has been assigned. To enter the universities,
 entrance examinations have been instituted. The final
 examinations of the intermediate schools, of the Clas-
@@ -11173,11 +10513,9 @@ old interests, the old ideas and especially the utilitarian
 spirit of the population, aroused an unavoidable spirit
 of ill-feeling. It was used by the opposition press, espe-
 cially by the Corriere della Sera, for controversial pur-
-poses ; but the reform has been put through with energy
+poses; but the reform has been put through with energy
 
 
-
-288 My Autobiography
 
 under my direction and has marked the beginning of a
 real rebirth of the Italian schools and of the Italian
@@ -11254,8 +10592,6 @@ and letters, has held high the name of Italy, I have ere-
 
 
 
-290 My Autobiography
-
 ated an Italian Academy, with a membership of im-
 mortals.
 
@@ -11273,7 +10609,7 @@ This aberration, which it is better to pass over quickly
 for the sake of ones country, was destined to find its
 avenger in Fascism. It was one of the factors which
 created an atmosphere passionately eager for change.
-To-day, the spirit of the country is much different ; to-
+To-day, the spirit of the country is much different; to-
 day the armed forces of the state are justly considered
 the secure and worthy and honored defense of the na-
 tion.
@@ -11292,7 +10628,6 @@ Minister of the Navy. On January 5, 1923, General
 
 
 
-The Fascist State and the Future 291
 
 
 
@@ -11331,8 +10666,6 @@ comes the Voluntary Militia for the Safety of the Na-
 
 
 
-292 My Autobiography
-
 tion, divided into 160 Legions, commanded by distin-
 guished officers and by enthusiastic Fascists. These are
 magnificent shock troops.
@@ -11340,7 +10673,7 @@ magnificent shock troops.
 Finally our barracks and our ships can be said to be,
 in the true sense of the word, refuges of peace and
 strength; the officers devote their activities to the physi-
-cal and educational betterment of the men ; the training
+cal and educational betterment of the men; the training
 conforms to the modern technic of war. The army is
 no longer distracted from its functions, as happened too
 often under the old governments, in order to assume
@@ -11369,7 +10702,6 @@ keep in mind also several lesser problems which, for
 
 
 
-The Fascist State and the Future 293
 
 the sake of the dignity and strength of the life of the
 nation, were in need of an immediate solution.
@@ -11406,8 +10738,6 @@ ways had an electoral tinge; public works to be done
 
 
 
-294 My Autobiography
-
 were decided upon here and there, not according to an
 organic plan or to any plain necessity, but to give spo-
 radic satisfaction to this or that group of voters. I
@@ -11441,7 +10771,6 @@ way the majesty of law. It is not a thing of small mo-
 
 
 
-The Fascist State and the Future 295
 
 
 
@@ -11473,14 +10802,12 @@ ried on to the detriment of other Italian cities. Each one
 of them has the typical character of an ancient capital.
 They are cities like Perugia, Milan, Naples, Florence,
 Palermo, Bologna, Turin, Genoa, which have had a sov-
-ereign history worthy of high respect ; but none of them
+ereign history worthy of high respect; but none of them
 thinks now to contest with Rome and its eternal glory.
 
 Some writers who, as keen observers, have followed
 
 
-
-296 My Autobiography
 
 point by point the vicissitudes of our political life at a
 certain moment raised an interesting question. Why did
@@ -11517,7 +10844,6 @@ personal temperament, usually withered under the gen-
 
 
 
-The Fascist State and the Future 297
 
 eral loss of esteem and interest, and after the disclosure
 of selfish ends.
@@ -11553,8 +10879,6 @@ gramme of violent struggle and yet preserve intact its
 character of proud political intransigentism. Many ob-
 
 
-
-298 My Autobiography
 
 vious signs made me understand that it was not pos-
 sible to patch the old with the new world. I had there-
@@ -11594,7 +10918,6 @@ of Fascism, while they were wishing in their hearts and
 
 
 
-The Fascist State and the Future 299
 
 
 
@@ -11604,7 +10927,7 @@ was a matter of an experiment of short duration, in
 which Fascism would be destroyed either on the parlia-
 mentary rocks or by an obvious inadequacy to direct
 the complexities of Italian life. We saw later the
-wretched end of these prophets ; but to attain results it
+wretched end of these prophets; but to attain results it
 had been necessary for me, particularly in the first year,
 continually to watch the Party. It had always to remain
 in perfect efficiency, superior to opposing critics and to
@@ -11632,8 +10955,6 @@ Party, I used all my force, care and means for the se-
 lection and the education of Youth. The Avanguardia
 
 
-
-300 My Autobiography
 
 was then created, together with the Opera Nazionale
 Balilla, the organization for boys and girls which, be-
@@ -11672,7 +10993,6 @@ Masonry.
 
 
 
-The Fascist State and the Future 301
 
 There was in that period a reprisal by anti-Fascist
 forces. The old Liberal world, defeated, but tolerated
@@ -11709,8 +11029,6 @@ which I had promulgated after four attempted assassi-
 
 
 
-302 My Autobiography
-
 nations had demonstrated the criminality of anti-Fas-
 cism. I was closely following this movement of vig-
 orous reprisal by the Party and had prepared in time
@@ -11746,7 +11064,6 @@ the regime we have given actuality to the formula: All
 
 
 
-The Fascist State and the Future 303
 
 the Power to all-Fascism which I enunciated in June,
 1925, at a Fascist meeting in Rome.
@@ -11781,8 +11098,6 @@ tion of any great significance. To be sure, the Holy See
 renews, once in a while, protestations for the supposed
 
 
-
-304 My Autobiography
 
 rights usurped in Rome by the Italian state, but there
 are no substantial reasons for apprehension, nor pro-
@@ -11819,7 +11134,6 @@ into political and intellectual bankruptcy.
 
 
 
-The Fascist State and the Future 305
 
 This troubled atmosphere, so infested by misunder-
 standings and superficialities, has been relieved by Fas-
@@ -11840,7 +11154,7 @@ To be sincere, I must add that high circles of the
 Vatican have not always been known to appreciate my
 work, possibly for political reasons, and have not helped
 me in the steps which appeared wise for all. My labor
-had not been easy nor light ; our Masonry had spun a
+had not been easy nor light; our Masonry had spun a
 most intricate net of anti-religious activity; it domi-
 nated the currents of thought; it exercised its influence
 over publishing houses, over teaching, over the admin-
@@ -11856,8 +11170,6 @@ tence of mine seemed to be out of place! In the Italian
 
 
 
-306 My Autobiography
-
 parliament, a field of action for Italian Masonry, the
 name of God had been banned for a long time. Not
 even the Popular party — the so-called Catholic party
@@ -11866,11 +11178,11 @@ political man did not even turn his thoughts to the Di-
 vinity. And, even if he had ever thought of doing so,
 political opportunism and cowardice would have de-
 terred him, particularly in a legislative assembly. It re-
-mained for me to make this bold innovation ! And in an
+mained for me to make this bold innovation! And in an
 intense period of revolution! What is the truth? It is
 that a faith openly professed is a sign of strength.
 
-I have seen the religious spirit bloom again ; churches
+I have seen the religious spirit bloom again; churches
 once more are crowded, the ministers of God are them-
 selves invested with new respect. Fascism has done and
 is doing its duty.
@@ -11895,7 +11207,6 @@ been reflected in international politics. The Roman
 
 
 
-The Fascist State and the Future 307
 
 
 
@@ -11933,8 +11244,6 @@ of the functions of the state.
 
 
 
-CHAPTER. XIII
-
 
 
 EN ROUTE
@@ -11968,18 +11277,6 @@ for mine; no material goods, no honors, no testimonials,
 no resolutions of approval which presume to consecrate
 me to History. My objective is simple: I want to make
 
-808
-
-
-
-En Route
-
-
-
-309
-
-
-
 Italy great, respected, and feared; I want to render my
 nation worthy of her noble and ancient traditions. I
 want to accelerate her evolution toward the highest
@@ -12012,8 +11309,6 @@ human solidarity in the filthy cesspool of low grudges.
 Defeated ones who cluck to the wind, survivors of a
 
 
-
-310 My Autobiography
 
 building which has toppled forever, accomplices in the
 ruin and shame into which the country was to have been

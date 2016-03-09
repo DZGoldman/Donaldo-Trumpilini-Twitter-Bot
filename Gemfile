@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-
 gem 'twitter', '>= 1.0'
 gem "figaro", "~> 0.7.0"
 gem 'randumb'

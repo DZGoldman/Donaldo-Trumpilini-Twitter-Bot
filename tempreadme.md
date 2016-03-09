@@ -6,6 +6,7 @@ Include posting tweet/markoving in Streaming
 Make reply method
 Add check for <100 sentences method
 
+Clean up mousilini 
 Follow everyone Trump mentions
 Favorite and follow one #makeamericagreatagain tweet a day
 Reply to one follower a day?

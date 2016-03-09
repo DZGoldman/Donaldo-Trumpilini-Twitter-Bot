@@ -26,7 +26,7 @@ class Bot < ActiveRecord::Base
          unless db_word.chain.include?(next_word)
            db_word.chain.push(next_word)
          end
-         db_word.save
+        db_word.save
         #if it doesn't exist yet, make a new one
       else
         db_word = Word.new(:word => word)
@@ -70,9 +70,7 @@ class Bot < ActiveRecord::Base
     if !['!','.','?'].include?(current_tweet.last)
       current_tweet+= ['!', '.'].sample
     end
-    puts current_tweet.slice(0,1).capitalize + current_tweet.slice(1..-1) unless recur
-    # CLIENT.update(current_tweet.capitalize)
-    puts current_tweet.capitalize
+    CLIENT.update( current_tweet.slice(0,1).capitalize + current_tweet.slice(1..-1))
   end
 
   def self.generate_reply
@@ -103,8 +101,8 @@ class Bot < ActiveRecord::Base
     if !['!','.','?'].include?(current_tweet.last)
       current_tweet+= ['!', '.'].sample
     end
-    puts current_tweet.slice(0,1).capitalize + current_tweet.slice(1..-1) unless recur
-    return current_tweet.capitalize
+    return current_tweet.slice(0,1).capitalize + current_tweet.slice(1..-1)
+
   end
 
   def self.start_stream
@@ -126,10 +124,11 @@ class Bot < ActiveRecord::Base
         unless object.user.screen_name=="Don_Trumpilini"
           puts "some tweet: "+ object.full_text
 
-          if object.user.id==25073877
+          if object.user.screen_name=="realDonaldTrump"
             puts 'trump tweeted that!'
             Bot.generate_tweet
-            #do the business here
+            Bot.make_markov (object.full_text)
+            markov_some_sentences 1
 
             #follow anybody he mentions
 
@@ -141,14 +140,13 @@ class Bot < ActiveRecord::Base
           elsif object.full_text.include? "@Don_Trumpilini"
             puts "bot was mentnioed"
             CLIENT.retweet(object)
-            CLIENT.favorite(object)
             CLIENT.follow(object.user)
             # reply to anyone who tweets about him
           elsif object.full_text.downcase.include? "trump"
-            puts "follower mentioned trump"
-            # CLIENT.update("@#{object.user.screen_name} Nice tweet.")
+            puts("follower mentioned trump")
+            puts ("@#{object.user.screen_name} #{Bot.generate_reply}")
+            puts object.id
             CLIENT.update("@#{object.user.screen_name} #{Bot.generate_reply}", in_reply_to_status_id: object.id)
-            puts object.user.screen_name
           end
         end
       when Twitter::Entity::UserMention

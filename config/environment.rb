@@ -11,13 +11,18 @@ Sentence.connection
 #   sleep(5.seconds)
 #   Bot.generate_tweet
 # end
-def initialize_trumpo
+def initialize_test
   tweets = fetch_some_tweets 100
   Bot.markov_tweets (tweets)
-
   sentences = save_some_sentences 188
   markov_some_sentences 185
+end
 
+def initialize_full
+  trump_tweets = fetch_all_tweets
+  Bot.markov_tweets (trump_tweets)
+  save_all_sentences
+  markov_some_sentences 2700
 end
 
 def average_string array
@@ -64,4 +69,6 @@ def chain_test db_words
   end
   not_found_words
 end
-# Bot.start_stream
+
+
+Bot.start_stream
