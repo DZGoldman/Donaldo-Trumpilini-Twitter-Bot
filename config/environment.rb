@@ -71,4 +71,4 @@ def chain_test db_words
 end
 
 
-Bot.start_stream
+# Bot.start_stream

@@ -128,6 +128,7 @@ class Bot < ActiveRecord::Base
           Bot.generate_tweet
         end
         $last_hour=Time.now.hour
+        
         unless object.user.screen_name=="Don_Trumpilini"
           puts "some tweet: "+ object.full_text
 
