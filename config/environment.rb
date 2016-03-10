@@ -72,5 +72,5 @@ end
 
 
   puts 'starting stream...'
-  Bot.start_stream
+  # Bot.start_stream
   puts 'stream broken...'
