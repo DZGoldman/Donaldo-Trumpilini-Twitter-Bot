@@ -72,5 +72,8 @@ end
 
 
   puts 'starting stream...'
-  # Bot.start_stream
-  puts 'stream broken...'
+  loop do
+    Bot.start_stream
+    puts 'something has gone wrong: waiting 1 minute'
+    sleep(1.minute)
+  end

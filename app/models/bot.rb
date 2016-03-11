@@ -124,7 +124,7 @@ class Bot < ActiveRecord::Base
 
       when Twitter::Tweet
         $new_hour= Time.now.hour
-        if $new_hour%1==0 && ($new_hour!=$last_hour)
+        if $new_hour%4==0 && ($new_hour!=$last_hour)
           Bot.generate_tweet
         end
         $last_hour=Time.now.hour
