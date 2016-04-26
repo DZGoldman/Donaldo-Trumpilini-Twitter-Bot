@@ -4,7 +4,9 @@ task :test_task => :environment do
 end
 
 task :send_tweet=> :environment do
-  break if Time.now.hour%2==1
+  time = Time.now
+  Bot.follow_back if time.hour == 23
+  break if time.hour%2==1
   
   random = rand(1..5)
   if random>1

@@ -169,15 +169,41 @@ class Bot < ActiveRecord::Base
   end
 
   def self.follow_back
-    followers = CLIENT.followers.to_a
-    friends = CLIENT.friends.to_a
-    puts followers.length
-    puts friends.length
+    #array of friends and followers as sorted arrays of IDS:
+    followers = CLIENT.followers.to_a.map{|f| f.id}.sort
+    friends = CLIENT.friends.to_a.map{|f| f.id}.sort
+
+    friends_len = friends.length
+    followers_len = followers.length
+    friends_index = 0
+    followers_index = 0
+
+    matches = []
+    while friends_index<friends_len and followers_index<followers_len
+      current_friend = friends[friends_index]
+      current_follower = followers[followers_index]
+
+      if current_friend == current_follower
+        matches.push(followers_index)
+        friends_index+=1
+        followers_index+=1
+      elsif current_friend<current_follower
+        friends_index+=1
+      elsif current_friend>current_follower
+        followers_index+=1
+      end
+    end
+
+    to_follow = (0..followers_len-1).select{|n| !matches.include?(n)}
+    for i in to_follow
+      break if i>13
+      CLIENT.follow(followers[i])
+    end
+
   end
 end
 
 
 #CLIENT.user('realDonaldTrump')
-# CLIENT.update("I'm tweeting now check it out yo")
 # tweet.full_text
 # puts CLIENT.user_timeline("realDonaldTrump")
