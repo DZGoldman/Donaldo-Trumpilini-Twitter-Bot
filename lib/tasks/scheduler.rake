@@ -6,7 +6,7 @@ end
 task :send_tweet=> :environment do
   break if Time.now.hour%2==1
   # Bot.generate_tweet
-  friend='@'+CLIENT.friends.to_a.choose.user_name
+  friend='@'+CLIENT.friends.to_a.sample.user_name
   CLIENT.update("#{friend} #{Bot.generate_reply}")
 
 
