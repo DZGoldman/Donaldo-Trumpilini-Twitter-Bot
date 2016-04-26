@@ -168,6 +168,12 @@ class Bot < ActiveRecord::Base
     end
   end
 
+  def self.follow_back
+    followers = CLIENT.followers.to_a
+    friends = CLIENT.friends.to_a
+    puts followers.length
+    puts friends.length
+  end
 end
 
 

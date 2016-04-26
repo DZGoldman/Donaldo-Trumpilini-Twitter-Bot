@@ -5,11 +5,14 @@ end
 
 task :send_tweet=> :environment do
   break if Time.now.hour%2==1
-  # Bot.generate_tweet
-  friend='@'+CLIENT.friends.to_a.sample.screen_name
-  tweet = "#{friend} #{Bot.generate_reply}"
-  puts tweet
-  CLIENT.update(tweet)
-
+  
+  random = rand(1..5)
+  if random>1
+    Bot.generate_tweet
+  elsif random==1
+    friend='@'+CLIENT.friends.to_a.sample.screen_name
+    tweet = "#{friend} #{Bot.generate_reply}"
+    CLIENT.update(tweet)
+  end
 
 end
