@@ -4,5 +4,7 @@ task :test_task => :environment do
 end
 
 task :send_tweet=> :environment do
-  puts 'sending tweet'
+  # if Time.now.hour%2==0
+    Bot.generate_tweet
+  # end
 end
